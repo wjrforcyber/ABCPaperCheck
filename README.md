@@ -1,10 +1,12 @@
 # Research related to ABC
 
-[ABC](https://github.com/berkeley-abc/abc) is a very popular opensource Logic Synthesis project, research implemented in ABC or related to ABC is recorded here.
+[ABC](https://github.com/berkeley-abc/abc) is a very popular opensource Logic Synthesis project, some of the research implemented in ABC or related to ABC is recorded here.
+
+This repo also helps people who want to read ABC code properly, research paper is a good start before accessing plain code.
 
 Most of the paper referenced here can be found at Prof Alan Mishchenko's [publication page](https://people.eecs.berkeley.edu/~alanmi/publications/).
 
-In some of the paper below folks from [EPFL Isils group](https://github.com/lsils) also have a large amount of interesting work involved, feel free to make a PR and add to the list.
+Another [EPFL Isils group](https://github.com/lsils) also has very high quality synthesis research, feel free to add anything interesting to the list.
 
 ## Command and Research Related
 
@@ -25,6 +27,20 @@ BLIF-MV format is the extended BLIF format.
 
 
 ### Optimization Group
+
+#### rewite/refactor/balance
+- [DAG-Aware AIG Rewriting A Fresh Look at Combinational Logic Synthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2006/dac06_rwr.pdf)
+
+#### if -g 
+- [Delay Optimization Using SOP Balancing](https://people.eecs.berkeley.edu/~alanmi/publications/2011/iccad11_sop.pdf)
+<br>*Openroad flow use SOP balance in their [script](https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts/blob/master/flow/scripts/abc_speed.script) (Update 2024.1.2).
+
+#### if -y
+- [Lazy Man’s Logic Synthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2012/iccad12_lms.pdf)
+
+#### if -u 
+- [Busy Man’s Synthesis: Combinational Delay Optimization With SAT](https://people.eecs.berkeley.edu/~alanmi/publications/2017/date17_bms.pdf)
+
 
 ### Mapper Group
 
