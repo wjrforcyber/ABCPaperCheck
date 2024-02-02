@@ -14,6 +14,9 @@ Another [EPFL Isils group](https://github.com/lsils) also has very high quality 
 
 Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can be found in following research paper.
 
+- [Quick Look under the Hood of ABC](https://people.eecs.berkeley.edu/~alanmi/abc/programming.pdf)
+<br>A brief but important manual helps understand basic network types and structures in ABC.
+
 - [CUDD package](https://web.mit.edu/sage/export/tmp/y/usr/share/doc/polybori/cudd/cuddIntro.html)
 <br>A manual helps get familar with CUDD package.
 
@@ -32,6 +35,7 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 - [AIGER 1.9 AND Beyond](https://fmv.jku.at/papers/BiereHeljankoWieringa-FMV-TR-11-2.pdf)
 - [The AIGER And-Inverter Graph (AIG) Format Version 20071012](https://fmv.jku.at/papers/Biere-FMV-TR-07-1.pdf)
 <br>This version is much more detailed than the latest one and illustrates the original AIG format and how to parse it.
+<br>Prof Armin Biere's [repo](https://github.com/arminbiere/aiger) would help you do the transformation between aig and other format.
 
 `read_blif`
 - [Berkeley Logic Interchange Format(BLIF)](https://course.ece.cmu.edu/~ee760/760docs/blif.pdf)
@@ -62,6 +66,7 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 
 
 #### Other reference
+- Recommend this [slide](http://cc.ee.ntu.edu.tw/~jhjiang/instruction/courses/fall14-lsv/lec08_2p.pdf) about technology mapping by Prof Jie-Hong Roland Jiang.
 - [FlowMap: An Optimal Technology Mapping Algorithm for Delay Optimization
 in Lookup-Table Based FPGA Designs](https://limsk.ece.gatech.edu/course/ece6133/papers/flowmap.pdf)
 <br>FlowMap
@@ -93,6 +98,7 @@ Here are some famous benchmarks from research/paper above.
 - [EPFL combinational benchmark suite](https://github.com/lsils/benchmarks)
 <br>There's also a [paper](https://core.ac.uk/download/pdf/148012141.pdf) related to the benchmark.
 <br>*Note that case `hyp` is quite big and skip it if necessary.
+- Official AIG benchmarks can be found at [here](https://fmv.jku.at/aiger/).
 
 #### NPN
 - [Classifying n-Input Boolean Functions](https://iie.fing.edu.uy/investigacion/grupos/microele//iberchip/pdf/75.pdf)
