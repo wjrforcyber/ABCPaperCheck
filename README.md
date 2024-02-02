@@ -10,6 +10,20 @@ Another [EPFL Isils group](https://github.com/lsils) also has very high quality 
 
 ## Command and Research Related
 
+### Structure & algorithm
+
+Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can be found in following research paper.
+
+- [CUDD package](https://web.mit.edu/sage/export/tmp/y/usr/share/doc/polybori/cudd/cuddIntro.html)
+<br>A manual helps get familar with CUDD package.
+
+- [Cut Ranking and Pruning: Enabling A General And Efficient FPGA Mapping Solution](https://dl.acm.org/doi/pdf/10.1145/296399.296425)
+
+- [The Disjunctive Decomposition of Logic Functions](https://dl.acm.org/doi/pdf/10.5555/266388.266429)
+<br> Good DSD reference.
+
+
+
 ### IO Group
 
 #### read_aiger
@@ -18,7 +32,7 @@ Another [EPFL Isils group](https://github.com/lsils) also has very high quality 
 <br>This one is referenced in ABC when constructing AIG.
 - [AIGER 1.9 AND Beyond](https://fmv.jku.at/papers/BiereHeljankoWieringa-FMV-TR-11-2.pdf)
 - [The AIGER And-Inverter Graph (AIG) Format Version 20071012](https://fmv.jku.at/papers/Biere-FMV-TR-07-1.pdf)
-<br>This version is much more detailed than the latest one and illustrates the original AIG format and how to parse.
+<br>This version is much more detailed than the latest one and illustrates the original AIG format and how to parse it.
 
 #### read_blif
 - [Berkeley Logic Interchange Format(BLIF)](https://course.ece.cmu.edu/~ee760/760docs/blif.pdf)
@@ -57,4 +71,16 @@ in Lookup-Table Based FPGA Designs](https://limsk.ece.gatech.edu/course/ece6133/
 ## Others
 - [Old version of Logic synthesis tools](https://jackhack96.github.io/logic-synthesis/mvsis.html)
 <br>Espresso, SIS, MVSIS are here.
+
+### Benchmarks
+Here are some famous benchmarks from research/paper above.
+
+- [IWLS 2005 Benchmarks](https://iwls.org/iwls2005/benchmarks.html)
+- [EPFL combinational benchmark suite](https://github.com/lsils/benchmarks)
+<br>There's also a [paper](https://core.ac.uk/download/pdf/148012141.pdf) related to the benchmark.
+<br>*Note that case `hyp` is quite big and skip it if necessary.
+
+#### NPN
+- [Classifying n-Input Boolean Functions](https://iie.fing.edu.uy/investigacion/grupos/microele//iberchip/pdf/75.pdf)
+<br> Very clear illustration of P/NPN class and examples are shown.
 
