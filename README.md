@@ -34,9 +34,11 @@ Another [EPFL Isils group](https://github.com/lsils) also has very high quality 
 #### if -g 
 - [Delay Optimization Using SOP Balancing](https://people.eecs.berkeley.edu/~alanmi/publications/2011/iccad11_sop.pdf)
 <br>*Openroad flow use SOP balance in their [script](https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts/blob/master/flow/scripts/abc_speed.script) (Update 2024.1.2).
+<br>Optimize some aig structure rw/rf/b can not optimize.
 
 #### if -y
 - [Lazy Man’s Logic Synthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2012/iccad12_lms.pdf)
+<br>Frequency based method to collect better pattern from design. Can even deal with pattens SOP-balance can not break.
 
 #### if -u 
 - [Busy Man’s Synthesis: Combinational Delay Optimization With SAT](https://people.eecs.berkeley.edu/~alanmi/publications/2017/date17_bms.pdf)
@@ -45,6 +47,14 @@ Another [EPFL Isils group](https://github.com/lsils) also has very high quality 
 ### Mapper Group
 
 ### Post-Mappinng Group
+- [Scalable Don’t-Care-Based Logic Optimization and Resynthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2011/trets11_mfs.pdf)
+<br>Re-sub based resynthesis + don't care based resynthesis
 
+- [FlowMap: An Optimal Technology Mapping Algorithm for Delay Optimization
+in Lookup-Table Based FPGA Designs](https://limsk.ece.gatech.edu/course/ece6133/papers/flowmap.pdf)
+<br>FlowMap
 
+## Others
+- [Old version of Logic synthesis tools](https://jackhack96.github.io/logic-synthesis/mvsis.html)
+<br>Espresso, SIS, MVSIS are here.
 
