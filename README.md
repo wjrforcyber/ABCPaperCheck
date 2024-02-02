@@ -26,15 +26,14 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 
 ### IO Group
 
-#### read_aiger
-
+`read_aiger`
 - [Local Two-Level And-Inverter Graph Minimization without Blowup](https://fmv.jku.at/papers/BrummayerBiere-MEMICS06.pdf)
 <br>This one is referenced in ABC when constructing AIG.
 - [AIGER 1.9 AND Beyond](https://fmv.jku.at/papers/BiereHeljankoWieringa-FMV-TR-11-2.pdf)
 - [The AIGER And-Inverter Graph (AIG) Format Version 20071012](https://fmv.jku.at/papers/Biere-FMV-TR-07-1.pdf)
 <br>This version is much more detailed than the latest one and illustrates the original AIG format and how to parse it.
 
-#### read_blif
+`read_blif`
 - [Berkeley Logic Interchange Format(BLIF)](https://course.ece.cmu.edu/~ee760/760docs/blif.pdf)
 - [BLIF-MV](https://people.eecs.berkeley.edu/~alanmi/publications/other/blifmv.pdf)
 <br>BLIF-MV format is the extended BLIF format.
@@ -42,33 +41,48 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 
 ### Optimization Group
 
-#### rewite/refactor/balance
+`rewite/refactor/balance`
 - [DAG-Aware AIG Rewriting A Fresh Look at Combinational Logic Synthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2006/dac06_rwr.pdf)
+<br>*Note that based on this [thread](https://github.com/YosysHQ/yosys/issues/4039), you should consider using `drw/drf`.
 
-#### if -g 
+`if -g` 
 - [Delay Optimization Using SOP Balancing](https://people.eecs.berkeley.edu/~alanmi/publications/2011/iccad11_sop.pdf)
 <br>*Openroad flow use SOP balance in their [script](https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts/blob/master/flow/scripts/abc_speed.script) (Update 2024.1.2).
 <br>Optimize some aig structure rw/rf/b can not optimize.
 
-#### if -y
+`if -y`
 - [Lazy Man’s Logic Synthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2012/iccad12_lms.pdf)
 <br>Frequency based method to collect better pattern from design. Can even deal with pattens SOP-balance can not break.
 
-#### if -u 
+`if -u` 
 - [Busy Man’s Synthesis: Combinational Delay Optimization With SAT](https://people.eecs.berkeley.edu/~alanmi/publications/2017/date17_bms.pdf)
 
 
 ### Mapper Group
 
-### Post-Mappinng Group
-- [Scalable Don’t-Care-Based Logic Optimization and Resynthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2011/trets11_mfs.pdf)
-<br>Re-sub based resynthesis + don't care based resynthesis
 
+#### Other reference
 - [FlowMap: An Optimal Technology Mapping Algorithm for Delay Optimization
 in Lookup-Table Based FPGA Designs](https://limsk.ece.gatech.edu/course/ece6133/papers/flowmap.pdf)
 <br>FlowMap
+- [Chortle: A Technology Mapping Program for Lookup Table-Based Field Programmable Gate Arrays](https://dl.acm.org/doi/pdf/10.1145/123186.123418)
+<br>Chortle
+- [Chortle-crf Fast Technology Table-Based Mapping for FPGAs](https://www.ece.iastate.edu/~zambreno/classes/cpre583/documents/FraRos91A.pdf)
+<br>Chortle-crf
 
-## Others
+
+
+### Post-Mappinng Group
+`speedup`
+- [Global Delay Optimization using Structural Choices](https://people.eecs.berkeley.edu/~alanmi/publications/2009/tech09_speed.pdf)
+<br>*Note: ABC LUT library format also has examples in this paper.
+
+`mfs`
+- [Scalable Don’t-Care-Based Logic Optimization and Resynthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2011/trets11_mfs.pdf)
+<br>Re-sub based resynthesis + don't care based resynthesis
+
+
+## Traditional Logic synthesis tools
 - [Old version of Logic synthesis tools](https://jackhack96.github.io/logic-synthesis/mvsis.html)
 <br>Espresso, SIS, MVSIS are here.
 
@@ -84,3 +98,5 @@ Here are some famous benchmarks from research/paper above.
 - [Classifying n-Input Boolean Functions](https://iie.fing.edu.uy/investigacion/grupos/microele//iberchip/pdf/75.pdf)
 <br> Very clear illustration of P/NPN class and examples are shown.
 
+## Other repo
+[Yosys](https://github.com/YosysHQ/yosys) and [OpenRoad-flow-scripts](https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts) are good place to find out discussion about ABC since original ABC repo's issues are not very active.
