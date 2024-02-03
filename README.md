@@ -45,9 +45,17 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 
 ### Optimization Group
 
+`fraig`
+- [FRAIGs: A Unifying Representation for Logic Synthesis and Verification](https://people.eecs.berkeley.edu/~alanmi/publications/2005/tech05_fraigs.pdf)
+<br>*Note that the MVSIS link in the paper is no longer avaiable, unofficial source code could be retrived from the **Traditional Logic synthesis tools** part below.
+
 `rewite/refactor/balance`
 - [DAG-Aware AIG Rewriting A Fresh Look at Combinational Logic Synthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2006/dac06_rwr.pdf)
 <br>*Note that based on this [thread](https://github.com/YosysHQ/yosys/issues/4039), you should consider using `drw/drf`.
+
+`if -S`
+- [Mapping into LUT Structures](https://people.eecs.berkeley.edu/~alanmi/publications/2012/date12_lut.pdf)
+
 
 `if -g` 
 - [Delay Optimization Using SOP Balancing](https://people.eecs.berkeley.edu/~alanmi/publications/2011/iccad11_sop.pdf)
@@ -64,6 +72,13 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 
 ### Mapper Group
 
+`mfs` & `mfs2`
+- [Scalable Don’t-Care-Based Logic Optimization and Resynthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2011/trets11_mfs.pdf)
+
+`mfs3`
+- [Versatile SAT-based Remapping for Standard Cells](https://people.eecs.berkeley.edu/~alanmi/publications/2016/iwls16_mfs3.pdf)
+<br> *Note: `mfs` & `mfs2` are for LUT-based FPGAs while `mfs3` is for standard cells.
+  
 
 #### Other reference
 - Recommend this [slide](http://cc.ee.ntu.edu.tw/~jhjiang/instruction/courses/fall14-lsv/lec08_2p.pdf) about technology mapping by Prof Jie-Hong Roland Jiang.
