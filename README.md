@@ -27,7 +27,7 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 
 
 
-### IO Group
+### IO & Util Group
 
 `read_aiger`
 - [Local Two-Level And-Inverter Graph Minimization without Blowup](https://fmv.jku.at/papers/BrummayerBiere-MEMICS06.pdf)
@@ -42,6 +42,12 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 - [BLIF-MV](https://people.eecs.berkeley.edu/~alanmi/publications/other/blifmv.pdf)
 <br>BLIF-MV format is the extended BLIF format.
 
+`testnpn`
+- [Fast Boolean Matching Based on NPN Classification](https://people.eecs.berkeley.edu/~alanmi/publications/2013/icfpt13_npn.pdf)
+- [Fast Adjustable NPN Classification Using Generalized Symmetries](https://people.eecs.berkeley.edu/~alanmi/publications/2019/trets19_npn.pdf)
+
+`&cec`
+- [Parallel Combinational Equivalence Checking](https://people.eecs.berkeley.edu/~alanmi/publications/2019/tcad19_cec.pdf)
 
 ### Optimization Group
 
@@ -77,7 +83,7 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 
 `mfs3`
 - [Versatile SAT-based Remapping for Standard Cells](https://people.eecs.berkeley.edu/~alanmi/publications/2016/iwls16_mfs3.pdf)
-<br> *Note: `mfs` & `mfs2` are for LUT-based FPGAs while `mfs3` is for standard cells.
+<br> *Note: `mfs` & `mfs2` are for **LUT-based FPGAs** while `mfs3` is for **standard cells**.
   
 
 #### Other reference
@@ -114,6 +120,8 @@ Here are some famous benchmarks from research/paper above.
 <br>There's also a [paper](https://core.ac.uk/download/pdf/148012141.pdf) related to the benchmark.
 <br>*Note that case `hyp` is quite big and skip it if necessary.
 - Official AIG benchmarks can be found at [here](https://fmv.jku.at/aiger/).
+
+- [ISCAS](https://web.eecs.umich.edu/~jhayes/iscas.restore/)
 
 #### NPN
 - [Classifying n-Input Boolean Functions](https://iie.fing.edu.uy/investigacion/grupos/microele//iberchip/pdf/75.pdf)
