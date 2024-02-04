@@ -59,6 +59,10 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 - [DAG-Aware AIG Rewriting A Fresh Look at Combinational Logic Synthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2006/dac06_rwr.pdf)
 <br>*Note that based on this [thread](https://github.com/YosysHQ/yosys/issues/4039), you should consider using `drw/drf`.
 
+`lutmin`
+- [Encoding of Boolean functions and its application to LUT cascade synthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2002/iwls02_enc.pdf)
+<br>The paper itself does not mention ABC but in this [paper](https://people.eecs.berkeley.edu/~alanmi/publications/2023/iwls23_lut.pdf), reference links `lutmin` here.
+
 `if -S`
 - [Mapping into LUT Structures](https://people.eecs.berkeley.edu/~alanmi/publications/2012/date12_lut.pdf)
 
@@ -84,7 +88,10 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 `mfs3`
 - [Versatile SAT-based Remapping for Standard Cells](https://people.eecs.berkeley.edu/~alanmi/publications/2016/iwls16_mfs3.pdf)
 <br> *Note: `mfs` & `mfs2` are for **LUT-based FPGAs** while `mfs3` is for **standard cells**.
-  
+
+`&sif`
+- [Mapping and Retiming Revisited](https://people.eecs.berkeley.edu/~alanmi/publications/2023/iwls23_m&r.pdf)
+
 
 #### Other reference
 - Recommend this [slide](http://cc.ee.ntu.edu.tw/~jhjiang/instruction/courses/fall14-lsv/lec08_2p.pdf) about technology mapping by Prof Jie-Hong Roland Jiang.
@@ -111,6 +118,7 @@ in Lookup-Table Based FPGA Designs](https://limsk.ece.gatech.edu/course/ece6133/
 ## Traditional Logic synthesis tools
 - [Old version of Logic synthesis tools](https://jackhack96.github.io/logic-synthesis/mvsis.html)
 <br>Espresso, SIS, MVSIS are here.
+<br>*Note: Some of the algorithm in ABC is directly from SIS and MVSIS.
 
 ### Benchmarks
 Here are some famous benchmarks from research/paper above.
@@ -120,8 +128,8 @@ Here are some famous benchmarks from research/paper above.
 <br>There's also a [paper](https://core.ac.uk/download/pdf/148012141.pdf) related to the benchmark.
 <br>*Note that case `hyp` is quite big and skip it if necessary.
 - Official AIG benchmarks can be found at [here](https://fmv.jku.at/aiger/).
-
 - [ISCAS](https://web.eecs.umich.edu/~jhayes/iscas.restore/)
+- [ITC99](https://github.com/cad-polito-it/I99T)
 
 #### NPN
 - [Classifying n-Input Boolean Functions](https://iie.fing.edu.uy/investigacion/grupos/microele//iberchip/pdf/75.pdf)
