@@ -10,7 +10,13 @@ Another [EPFL Isils group](https://github.com/lsils) also has very high quality 
 
 ## Command and Research Related
 
-### Structure & algorithm
+
+<details>
+  <summary>
+    <h3>
+      Structure & algorithm
+    </h3>
+  </summary>
 
 Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can be found in following research paper.
 
@@ -20,11 +26,17 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 - [CUDD package](https://web.mit.edu/sage/export/tmp/y/usr/share/doc/polybori/cudd/cuddIntro.html)
 <br>A manual helps get familar with CUDD package.
 
+- [Liberty Reference Manual](https://people.eecs.berkeley.edu/~alanmi/publications/other/liberty07_03.pdf), there's probably a new version though, if anyone has a legal reference link, please update.  
+
 - [Cut Ranking and Pruning: Enabling A General And Efficient FPGA Mapping Solution](https://dl.acm.org/doi/pdf/10.1145/296399.296425)
 
 - [The Disjunctive Decomposition of Logic Functions](https://dl.acm.org/doi/pdf/10.5555/266388.266429)
 <br> Good DSD reference.
 
+#### SAT
+- [MiniSAT](https://people.eecs.berkeley.edu/~alanmi/courses/2007_290N/papers/intro_een_sat03.pdf)
+
+</details>
 
 
 ### IO & Util Group
@@ -120,8 +132,13 @@ in Lookup-Table Based FPGA Designs](https://limsk.ece.gatech.edu/course/ece6133/
 <br>Espresso, SIS, MVSIS are here.
 <br>*Note: Some of the algorithm in ABC is directly from SIS and MVSIS.
 
-### Benchmarks
-Here are some famous benchmarks from research/paper above.
+<details>
+  <summary>
+    <h3>
+      Benchmarks
+    </h3>
+  </summary>
+  Here are some famous benchmarks from research/paper above.
 
 - [IWLS 2005 Benchmarks](https://iwls.org/iwls2005/benchmarks.html)
 - [EPFL combinational benchmark suite](https://github.com/lsils/benchmarks)
@@ -130,6 +147,8 @@ Here are some famous benchmarks from research/paper above.
 - Official AIG benchmarks can be found at [here](https://fmv.jku.at/aiger/).
 - [ISCAS](https://web.eecs.umich.edu/~jhayes/iscas.restore/)
 - [ITC99](https://github.com/cad-polito-it/I99T)
+</details>
+
 
 #### NPN
 - [Classifying n-Input Boolean Functions](https://iie.fing.edu.uy/investigacion/grupos/microele//iberchip/pdf/75.pdf)
