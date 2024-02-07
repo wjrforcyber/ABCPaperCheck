@@ -94,12 +94,6 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 
 ### Mapper Group
 
-`mfs` & `mfs2`
-- [Scalable Don’t-Care-Based Logic Optimization and Resynthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2011/trets11_mfs.pdf)
-
-`mfs3`
-- [Versatile SAT-based Remapping for Standard Cells](https://people.eecs.berkeley.edu/~alanmi/publications/2016/iwls16_mfs3.pdf)
-<br> *Note: `mfs` & `mfs2` are for **LUT-based FPGAs** while `mfs3` is for **standard cells**.
 
 `&sif`
 - [Mapping and Retiming Revisited](https://people.eecs.berkeley.edu/~alanmi/publications/2023/iwls23_m&r.pdf)
@@ -122,9 +116,14 @@ in Lookup-Table Based FPGA Designs](https://limsk.ece.gatech.edu/course/ece6133/
 - [Global Delay Optimization using Structural Choices](https://people.eecs.berkeley.edu/~alanmi/publications/2009/tech09_speed.pdf)
 <br>*Note: ABC LUT library format also has examples in this paper.
 
-`mfs`
+`mfs` & `mfs2`
 - [Scalable Don’t-Care-Based Logic Optimization and Resynthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2011/trets11_mfs.pdf)
 <br>Re-sub based resynthesis + don't care based resynthesis
+
+`mfs3`
+- [Versatile SAT-based Remapping for Standard Cells](https://people.eecs.berkeley.edu/~alanmi/publications/2016/iwls16_mfs3.pdf)
+<br> Experiment is performed after `amap` and `&nf -R 1000`.
+<br> *Note: `mfs` & `mfs2` are for **LUT-based FPGAs** while `mfs3` is for **standard cells**.
 
 
 ## Traditional Logic synthesis tools
@@ -134,9 +133,9 @@ in Lookup-Table Based FPGA Designs](https://limsk.ece.gatech.edu/course/ece6133/
 
 <details>
   <summary>
-    <h3>
+    <h2>
       Benchmarks
-    </h3>
+    </h2>
   </summary>
   Here are some famous benchmarks from research/paper above.
 
