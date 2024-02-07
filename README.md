@@ -82,7 +82,7 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 `if -g` 
 - [Delay Optimization Using SOP Balancing](https://people.eecs.berkeley.edu/~alanmi/publications/2011/iccad11_sop.pdf)
 <br>*Openroad flow use SOP balance in their [script](https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts/blob/master/flow/scripts/abc_speed.script) (Update 2024.1.2).
-<br>Optimize some aig structure rw/rf/b can not optimize.
+<br>Optimize some aig structure rw/rf/b can't optimize.
 
 `if -y`
 - [Lazy Man’s Logic Synthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2012/iccad12_lms.pdf)
@@ -108,7 +108,8 @@ in Lookup-Table Based FPGA Designs](https://limsk.ece.gatech.edu/course/ece6133/
 <br>Chortle
 - [Chortle-crf Fast Technology Table-Based Mapping for FPGAs](https://www.ece.iastate.edu/~zambreno/classes/cpre583/documents/FraRos91A.pdf)
 <br>Chortle-crf
-
+- [DAGON: Technology Binding and Local Optimization by DAG Matching](https://dl.acm.org/doi/pdf/10.1145/62882.62957)
+<br>The well known DAGON, you could probably see this in any reference(especially lecture slides/research paper etc) online. Based on treeifying and dynamic programming.
 
 
 ### Post-Mappinng Group
