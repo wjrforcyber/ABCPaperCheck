@@ -110,6 +110,12 @@ in Lookup-Table Based FPGA Designs](https://limsk.ece.gatech.edu/course/ece6133/
 <br>Chortle-crf
 - [DAGON: Technology Binding and Local Optimization by DAG Matching](https://dl.acm.org/doi/pdf/10.1145/62882.62957)
 <br>The well known DAGON, you could probably see this in any reference(especially lecture slides/research paper etc) online. Based on treeifying and dynamic programming.
+- [Delay-Optimal Technology Mapping by DAG Covering](https://dl.acm.org/doi/pdf/10.1145/277044.277142)
+<br>DAG mapper
+<br>*Note: Faster than tree covering method in DAGON.
+- [Logic Decomposition during Technology Mapping](https://dl.acm.org/doi/pdf/10.5555/224841.225050)
+<br>Graph mapper
+<br>*Note: *"Using supergates and choices, the mapper outperforms both **Graph Map** and **DAG mapper** in delay and area and has a significantly shorter run-time."* - [Reference](https://people.eecs.berkeley.edu/~alanmi/publications/2005/iccad05_map.pdf).
 
 
 ### Post-Mappinng Group
