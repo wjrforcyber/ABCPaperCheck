@@ -33,6 +33,9 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 - [The Disjunctive Decomposition of Logic Functions](https://dl.acm.org/doi/pdf/10.5555/266388.266429)
 <br> Good DSD reference.
 
+- [Fast Heuristic Minimization of Exclusive-Sums-of-Products](https://people.eecs.berkeley.edu/~alanmi/publications/2001/rm01_heu.pdf)
+<br>ESOP minimizer EXORCISM-4, compared with early EXMIN2/MINT/EXORCISM-2/EXORCISM–3.
+
 #### SAT
 - [MiniSAT](https://people.eecs.berkeley.edu/~alanmi/courses/2007_290N/papers/intro_een_sat03.pdf)
 
@@ -70,6 +73,9 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 `rewite/refactor/balance`
 - [DAG-Aware AIG Rewriting A Fresh Look at Combinational Logic Synthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2006/dac06_rwr.pdf)
 <br>*Note that based on this [thread](https://github.com/YosysHQ/yosys/issues/4039), you should consider using `drw/drf`.
+
+`satclp`
+- [Progressive Generation of Canonical Irredundant Sums of Products Using a SAT Solver](https://people.eecs.berkeley.edu/~alanmi/publications/2017/book17_satclp.pdf)
 
 `lutmin`
 - [Encoding of Boolean functions and its application to LUT cascade synthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2002/iwls02_enc.pdf)
