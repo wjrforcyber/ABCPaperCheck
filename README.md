@@ -28,6 +28,10 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 
 - [Liberty Reference Manual](https://people.eecs.berkeley.edu/~alanmi/publications/other/liberty07_03.pdf), there's probably a new version though, if anyone has a legal reference link, please update.  
 
+- [Priority Cuts Defination](https://people.eecs.berkeley.edu/~alanmi/publications/2007/iccad07_map.pdf)
+
+- [Factor Cus Defination](https://people.eecs.berkeley.edu/~alanmi/publications/2006/iccad06_cut.pdf)
+
 - [Cut Ranking and Pruning: Enabling A General And Efficient FPGA Mapping Solution](https://dl.acm.org/doi/pdf/10.1145/296399.296425)
 
 - [The Disjunctive Decomposition of Logic Functions](https://dl.acm.org/doi/pdf/10.5555/266388.266429)
