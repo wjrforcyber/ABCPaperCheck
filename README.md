@@ -170,5 +170,11 @@ in Lookup-Table Based FPGA Designs](https://limsk.ece.gatech.edu/course/ece6133/
 - [Classifying n-Input Boolean Functions](https://iie.fing.edu.uy/investigacion/grupos/microele//iberchip/pdf/75.pdf)
 <br> Very clear illustration of P/NPN class and examples are shown.
 
+## Delay target optimization
+- [Enabling Exact Delay Synthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2017/iccad17_eds.pdf)
+<br> Personally really recommend this paper which combines timing information with supergates idea and optimized using P classes.
+
+## Area target optimization
+
 ## Other repo
 [Yosys](https://github.com/YosysHQ/yosys) and [OpenRoad-flow-scripts](https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts) are good place to find out discussion about ABC since original ABC repo's issues are not very active.
