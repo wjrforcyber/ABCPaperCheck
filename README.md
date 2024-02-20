@@ -145,7 +145,7 @@ in Lookup-Table Based FPGA Designs](https://limsk.ece.gatech.edu/course/ece6133/
 
 
 ## Traditional Logic synthesis tools
-- [Old version of Logic synthesis tools](https://jackhack96.github.io/logic-synthesis/mvsis.html)
+- [Old Logic synthesis tools](https://jackhack96.github.io/logic-synthesis/mvsis.html)
 <br>Espresso, SIS, MVSIS are here.
 <br>*Note: Some of the algorithm in ABC is directly from SIS and MVSIS.
 
