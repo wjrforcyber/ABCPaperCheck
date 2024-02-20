@@ -141,6 +141,7 @@ in Lookup-Table Based FPGA Designs](https://limsk.ece.gatech.edu/course/ece6133/
 - [Versatile SAT-based Remapping for Standard Cells](https://people.eecs.berkeley.edu/~alanmi/publications/2016/iwls16_mfs3.pdf)
 <br> Experiment is performed after `amap` and `&nf -R 1000`.
 <br> *Note: `mfs` & `mfs2` are for **LUT-based FPGAs** while `mfs3` is for **standard cells**.
+<br> *Gain-based [approach](https://www.ece.ucdavis.edu/~vojin/CLASSES/EPFL/Papers/LE-orig-paper.pdf) deals with delay information.
 
 
 ## Traditional Logic synthesis tools
