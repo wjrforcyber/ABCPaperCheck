@@ -103,7 +103,8 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 
 
 ### Mapper Group
-
+`if`
+- [Combinational and Sequential Mapping with Priority Cuts](https://people.eecs.berkeley.edu/~alanmi/publications/2007/iccad07_map.pdf)
 
 `&sif`
 - [Mapping and Retiming Revisited](https://people.eecs.berkeley.edu/~alanmi/publications/2023/iwls23_m&r.pdf)
