@@ -40,8 +40,6 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 - [Fast Heuristic Minimization of Exclusive-Sums-of-Products](https://people.eecs.berkeley.edu/~alanmi/publications/2001/rm01_heu.pdf)
 <br>ESOP minimizer EXORCISM-4, compared with early EXMIN2/MINT/EXORCISM-2/EXORCISM–3.
 
-#### SAT
-- [MiniSAT](https://people.eecs.berkeley.edu/~alanmi/courses/2007_290N/papers/intro_een_sat03.pdf)
 
 </details>
 
@@ -199,4 +197,7 @@ in Lookup-Table Based FPGA Designs](https://limsk.ece.gatech.edu/course/ece6133/
 This [repo](https://www.cs.cmu.edu/~mheule/15816-f21/slides/practice.pdf) from CMU can give you a brif introduction on the DIMACS format and how to use SAT solver as an interface.
 
 I was trying to matain a collection list of SAT solvers but I have found that [PySAT](https://github.com/pysathq/pysat) seems contain all the well-known SAT solvers. 
+
+There's a detailed [introduction](https://people.eecs.berkeley.edu/~alanmi/courses/2007_290N/papers/intro_een_sat03.pdf) on MiniSAT.
+
 </details>
