@@ -133,7 +133,7 @@ in Lookup-Table Based FPGA Designs](https://limsk.ece.gatech.edu/course/ece6133/
 ### Post-Mappinng Group
 `speedup`
 - [Global Delay Optimization using Structural Choices](https://people.eecs.berkeley.edu/~alanmi/publications/2009/tech09_speed.pdf)
-<br>*Note: ABC LUT library format also has examples in this paper.
+<br>*Note: ABC LUT library format also has examples in this paper. Since all optimization is on AIG as strash is performed after time tracing and critical node marking, so change these two part will help applying the algorithm after standard cell mapping.
 
 `mfs` & `mfs2`
 - [Scalable Don’t-Care-Based Logic Optimization and Resynthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2011/trets11_mfs.pdf)
