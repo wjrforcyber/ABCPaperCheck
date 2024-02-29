@@ -178,6 +178,7 @@ in Lookup-Table Based FPGA Designs](https://limsk.ece.gatech.edu/course/ece6133/
 - Official AIG benchmarks can be found at [here](https://fmv.jku.at/aiger/).
 - [ISCAS](https://web.eecs.umich.edu/~jhayes/iscas.restore/)
 - [ITC99](https://github.com/cad-polito-it/I99T)
+- [MCNC](https://s2.smu.edu/~manikas/Benchmarks/MCNC_Benchmark_Netlists.html)
 </details>
 
 
