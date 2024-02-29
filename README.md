@@ -201,3 +201,8 @@ I was trying to matain a collection list of SAT solvers but I have found that [P
 There's a detailed [introduction](https://people.eecs.berkeley.edu/~alanmi/courses/2007_290N/papers/intro_een_sat03.pdf) on MiniSAT.
 
 </details>
+
+## TODO
+Some of the implementation was originally been written into the traditional tools such as MVSIS or SIS.
+<br>It's better to check if ABC contains the following.
+- *“S&S-based and BDD-based resubstitution algorithms were implemented in the resynthesis package used to improve the quality of standard-cell technology mapping in MVSIS”* - [Reference](https://people.eecs.berkeley.edu/~alanmi/publications/2005/tcad05_s&s.pdf)
