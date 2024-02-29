@@ -152,7 +152,7 @@ in Lookup-Table Based FPGA Designs](https://limsk.ece.gatech.edu/course/ece6133/
 
 ## Delay target optimization
 - [Enabling Exact Delay Synthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2017/iccad17_eds.pdf)
-<br> Personally really recommend this paper which combines timing information with supergates idea and optimized using P classes.
+<br> Personally really recommend this paper which combines timing information with supergates and optimizes searching using P classes with timing pattern.
 
 ## Area target optimization
 
