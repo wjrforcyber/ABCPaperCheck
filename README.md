@@ -179,6 +179,9 @@ in Lookup-Table Based FPGA Designs](https://limsk.ece.gatech.edu/course/ece6133/
 - [ISCAS](https://web.eecs.umich.edu/~jhayes/iscas.restore/)
 - [ITC99](https://github.com/cad-polito-it/I99T)
 - [MCNC](https://s2.smu.edu/~manikas/Benchmarks/MCNC_Benchmark_Netlists.html)
+- [ISPD’02 IBM Mixed-Size Placement Benchmarks](http://vlsicad.eecs.umich.edu/BK/ISPD02bench/)
+- [ISPD’98 Circuit Benchmark Suite](https://cseweb.ucsd.edu/~kastner/labyrinth_vault/benchmarks/index.html) - [Reference](https://dl.acm.org/doi/pdf/10.1145/274535.274546)
+- [ISPD04 IBM Standard Cell Benchmarks with Pads](http://vlsicad.eecs.umich.edu/BK/Slots/cache/www.public.iastate.edu/~nataraj/ISPD04_Bench.html)
 </details>
 
 
