@@ -81,6 +81,11 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 - [Scalable Logic Synthesis using a Simple Circuit Structure](https://people.eecs.berkeley.edu/~alanmi/publications/2006/iwls06_sls.pdf)
 <br>*Note that this resub is technology-independent, there is technology-dependent resub in [reference](https://people.eecs.berkeley.edu/~alanmi/publications/2005/tcad05_s&s.pdf), they have similar idea.
 
+`rr`
+- [Scalable Logic Synthesis using a Simple Circuit Structure](https://people.eecs.berkeley.edu/~alanmi/publications/2006/iwls06_sls.pdf)
+<br>The concept of redundancy removal can be found here.
+<br>*Note: *"...Therefore, don’t-care-based two-level minimization performed in ... using ESPRESSO is not needed for AIG."*
+
 `satclp`
 - [Progressive Generation of Canonical Irredundant Sums of Products Using a SAT Solver](https://people.eecs.berkeley.edu/~alanmi/publications/2017/book17_satclp.pdf)
 
