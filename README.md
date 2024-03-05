@@ -63,6 +63,9 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 - [Fast Boolean Matching Based on NPN Classification](https://people.eecs.berkeley.edu/~alanmi/publications/2013/icfpt13_npn.pdf)
 - [Fast Adjustable NPN Classification Using Generalized Symmetries](https://people.eecs.berkeley.edu/~alanmi/publications/2019/trets19_npn.pdf)
 
+`double`
+- *double* can be used to increase the size of the current aig network, and functionally speaking, you could generate larger case more realistic than MtM benchmark. - [Reference](https://people.eecs.berkeley.edu/~alanmi/publications/2018/iccad18_rwr.pdf)
+
 `&cec`
 - [Parallel Combinational Equivalence Checking](https://people.eecs.berkeley.edu/~alanmi/publications/2019/tcad19_cec.pdf)
 
