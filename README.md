@@ -117,6 +117,12 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 
 
 ### Mapper Group
+`map`
+<br>There are tons of ideas and tricks inside the mapper, this list will be extended.
+- [Technology Mapping with Boolean Matching, Supergates and Choices](https://people.eecs.berkeley.edu/~alanmi/publications/2005/tech05_map.pdf)
+- Why delay estimation is logarithmic? - [High-Level Delay Estimation for Technology-Independent logic Equations](https://ieeexplore.ieee.org/document/129876/)
+
+
 `if`
 - [Combinational and Sequential Mapping with Priority Cuts](https://people.eecs.berkeley.edu/~alanmi/publications/2007/iccad07_map.pdf)
 
