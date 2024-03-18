@@ -225,6 +225,11 @@ There's a detailed [introduction](https://people.eecs.berkeley.edu/~alanmi/cours
 
 </details>
 
+## Performance
+- Yosys+ABC9 in FPGA is catching up with industry level performance. - [Reference](https://people.eecs.berkeley.edu/~alanmi/publications/2023/date23_gap.pdf)
+
+
+
 ## TODO
 Some of the implementation was originally been written into the traditional tools such as MVSIS or SIS.
 <br>It's better to check if ABC contains the following.
