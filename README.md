@@ -11,7 +11,7 @@ Another [EPFL Isils group](https://github.com/lsils) also has very high quality 
 ## Command and Research Related
 
 
-<details>
+<details open>
   <summary>
     <h3>
       Structure & algorithm
