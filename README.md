@@ -4,7 +4,7 @@
 
 This repo also helps people who want to read ABC code properly, research paper is a good start before accessing plain code.
 
-Most of the paper referenced here can be found at Prof Alan Mishchenko's [publication page](https://people.eecs.berkeley.edu/~alanmi/publications/).
+Most of the paper referenced here can be found at Alan Mishchenko's [publication page](https://people.eecs.berkeley.edu/~alanmi/publications/).
 
 Another [EPFL Isils group](https://github.com/lsils) also has very high quality synthesis research, feel free to add anything interesting to the list.
 
