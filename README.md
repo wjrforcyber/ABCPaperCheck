@@ -85,6 +85,10 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 - [Scalable Logic Synthesis using a Simple Circuit Structure](https://people.eecs.berkeley.edu/~alanmi/publications/2006/iwls06_sls.pdf)
 <br>*Note that this resub is technology-independent, there is technology-dependent resub in [reference](https://people.eecs.berkeley.edu/~alanmi/publications/2005/tcad05_s&s.pdf), they have similar idea.
 
+`&reshape`
+- [Control Logic Restructuring for Area Optimization](https://people.eecs.berkeley.edu/~alanmi/publications/2022/iwls22_reshape.pdf)
+<br>*Note that although this command is already in ABC, no real implementation is available.
+
 `rr`
 - [Scalable Logic Synthesis using a Simple Circuit Structure](https://people.eecs.berkeley.edu/~alanmi/publications/2006/iwls06_sls.pdf)
 <br>The concept of redundancy removal can be found here.
