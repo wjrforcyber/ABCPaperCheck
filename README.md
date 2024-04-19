@@ -59,6 +59,9 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 - [BLIF-MV](https://people.eecs.berkeley.edu/~alanmi/publications/other/blifmv.pdf)
 <br>BLIF-MV format is the extended BLIF format.
 
+`read_bench` 
+- Read a [bench format file](https://sportlab.usc.edu/~msabrishami/benchmark-project/bench.html)
+
 `testnpn`
 - [Fast Boolean Matching Based on NPN Classification](https://people.eecs.berkeley.edu/~alanmi/publications/2013/icfpt13_npn.pdf)
 - [Fast Adjustable NPN Classification Using Generalized Symmetries](https://people.eecs.berkeley.edu/~alanmi/publications/2019/trets19_npn.pdf)
