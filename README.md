@@ -213,6 +213,8 @@ in Lookup-Table Based FPGA Designs](https://limsk.ece.gatech.edu/course/ece6133/
 - [ISPD’02 IBM Mixed-Size Placement Benchmarks](http://vlsicad.eecs.umich.edu/BK/ISPD02bench/)
 - [ISPD’98 Circuit Benchmark Suite](https://cseweb.ucsd.edu/~kastner/labyrinth_vault/benchmarks/index.html) - [Reference](https://dl.acm.org/doi/pdf/10.1145/274535.274546)
 - [ISPD04 IBM Standard Cell Benchmarks with Pads](http://vlsicad.eecs.umich.edu/BK/Slots/cache/www.public.iastate.edu/~nataraj/ISPD04_Bench.html)
+- [MPC Benchmark](https://github.com/lsils/date2020_experiments/tree/master/MPC_benchmarks)
+- [Crypto Benchmark](https://github.com/lsils/date2020_experiments/tree/master/crypto_benchmarks)
 </details>
 
 
