@@ -40,6 +40,10 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 - [Fast Heuristic Minimization of Exclusive-Sums-of-Products](https://people.eecs.berkeley.edu/~alanmi/publications/2001/rm01_heu.pdf)
 <br>ESOP minimizer EXORCISM-4, compared with early EXMIN2/MINT/EXORCISM-2/EXORCISM–3.
 
+- ISOP(Irredundant Sum-of-product computation)
+<br>Which is always computed by Minato-Morreale Algorithm, there is one Pseudo code in the [appendix part](https://cecs.uci.edu/~papers/compendium94-03/papers/1998/iccad98/pdffiles/02b_2.pdf), the turth table library in [Kitty](https://github.com/msoeken/kitty/blob/master/include/kitty/isop.hpp) also has an implementation.
+<br>Note BDD package seems have internal interface. (Reference needed).
+
 
 </details>
 
