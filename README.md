@@ -72,6 +72,8 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 
 `read_super`
 - Concepts of supergates can be found in [Reference0](https://people.eecs.berkeley.edu/~alanmi/publications/2005/tech05_map.pdf) and [Reference1](https://people.eecs.berkeley.edu/~alanmi/publications/2005/tcad05_map.pdf).
+  
+`super`
 - In ABC this command for constructing supergates only accepts a library in genlib format, if you are using a standard cell library, dump a genlib first.
 
 `testnpn`
