@@ -55,7 +55,7 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 <br>This one is referenced in ABC when constructing AIG.
 - [AIGER 1.9 AND Beyond](https://fmv.jku.at/papers/BiereHeljankoWieringa-FMV-TR-11-2.pdf)
 - [The AIGER And-Inverter Graph (AIG) Format Version 20071012](https://fmv.jku.at/papers/Biere-FMV-TR-07-1.pdf)
-<br>This version is much more detailed than the latest one and illustrates the original AIG format and how to parse it.
+<br>This version is much more detailed than the latest one and illustrates the original AIG format and how to parse it. If you are working on a parser, read this carefully, I recommend reading the [aiger parser in lorina](https://github.com/hriener/lorina/blob/master/include/lorina/aiger.hpp), which is implemented in regular expression, in ABC, this is done by hard-core char by char shifting.
 <br>Prof Armin Biere's [repo](https://github.com/arminbiere/aiger) would help you do the transformation between aig and other format.
 
 `read_blif`
