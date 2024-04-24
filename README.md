@@ -58,13 +58,21 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 <br>This version is much more detailed than the latest one and illustrates the original AIG format and how to parse it. If you are working on a parser, read this carefully, I recommend reading the [aiger parser in lorina](https://github.com/hriener/lorina/blob/master/include/lorina/aiger.hpp), which is implemented in regular expression, in ABC, this is done by hard-core char by char shifting.
 <br>Prof Armin Biere's [repo](https://github.com/arminbiere/aiger) would help you do the transformation between aig and other format.
 
+`read_bench` 
+- Read a [bench format file](https://sportlab.usc.edu/~msabrishami/benchmark-project/bench.html)
+
 `read_blif`
 - [Berkeley Logic Interchange Format(BLIF)](https://course.ece.cmu.edu/~ee760/760docs/blif.pdf)
 - [BLIF-MV](https://people.eecs.berkeley.edu/~alanmi/publications/other/blifmv.pdf)
 <br>BLIF-MV format is the extended BLIF format.
 
-`read_bench` 
-- Read a [bench format file](https://sportlab.usc.edu/~msabrishami/benchmark-project/bench.html)
+`read_genlib` & `print_genlib`
+- genlib format is [SIS genlib format](https://workcraft.org/_media/help/sis_genlib.pdf)
+<br>*Note this is not an offical source, it would be appreciate if anyone could provide an official source.
+
+`read_super`
+- Concepts of supergates can be found in [Reference0](https://people.eecs.berkeley.edu/~alanmi/publications/2005/tech05_map.pdf) and [Reference1](https://people.eecs.berkeley.edu/~alanmi/publications/2005/tcad05_map.pdf).
+- In ABC this command for constructing supergates only accepts a library in genlib format, if you are using a standard cell library, dump a genlib first.
 
 `testnpn`
 - [Fast Boolean Matching Based on NPN Classification](https://people.eecs.berkeley.edu/~alanmi/publications/2013/icfpt13_npn.pdf)
