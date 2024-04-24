@@ -78,6 +78,13 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 
 ### Optimization Group
 
+`strash`
+<br>Structure hashing
+
+`bdd`
+<br>Binary decision diagram
+<br>*Note that ROBDD is cananical but even with structure hashing, AIG is not cananical, this is simple but important.
+
 `fraig`
 - [FRAIGs: A Unifying Representation for Logic Synthesis and Verification](https://people.eecs.berkeley.edu/~alanmi/publications/2005/tech05_fraigs.pdf)
 <br>Construct aig and make sure it's semi-canonical, the concept **semi-canonical** can be compared with ROBDD, which is totally canonical.
