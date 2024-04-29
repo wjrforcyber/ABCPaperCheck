@@ -100,6 +100,7 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 - Other Disjoint Support Decomposition reference:
   - [Minato-DeMicheli](https://dl.acm.org/doi/pdf/10.1145/288548.288586)
   - [Sasao-Matsuura](http://www.lsi-cad.com/sasao/Papers/files/IWLS1998.pdf)
+  - [An approach to disjoint-support decomposition of logic functions](https://people.eecs.berkeley.edu/~alanmi/publications/2001/tech01_dsd.pdf)
 
 `fraig`
 - [FRAIGs: A Unifying Representation for Logic Synthesis and Verification](https://people.eecs.berkeley.edu/~alanmi/publications/2005/tech05_fraigs.pdf)
