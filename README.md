@@ -146,7 +146,7 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 
 `if -y`
 - [Lazy Man’s Logic Synthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2012/iccad12_lms.pdf)
-<br>Frequency based method to collect better pattern from design. Can even deal with pattens SOP-balance can not break.
+<br>Frequency based method to collect better pattern from design. Can even deal with patterns SOP-balance can not break.
 
 `if -u` 
 - [Busy Man’s Synthesis: Combinational Delay Optimization With SAT](https://people.eecs.berkeley.edu/~alanmi/publications/2017/date17_bms.pdf)
