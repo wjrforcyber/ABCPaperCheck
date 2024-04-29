@@ -36,9 +36,6 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 
 - [Cut Ranking and Pruning: Enabling A General And Efficient FPGA Mapping Solution](https://dl.acm.org/doi/pdf/10.1145/296399.296425)
 
-- [The Disjunctive Decomposition of Logic Functions](https://dl.acm.org/doi/pdf/10.5555/266388.266429)
-<br> Good DSD reference.
-
 - [Fast Heuristic Minimization of Exclusive-Sums-of-Products](https://people.eecs.berkeley.edu/~alanmi/publications/2001/rm01_heu.pdf)
 <br>ESOP minimizer EXORCISM-4, compared with early EXMIN2/MINT/EXORCISM-2/EXORCISM–3.
 
@@ -96,6 +93,13 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 `bdd`
 <br>Binary decision diagram
 <br>*Note that ROBDD is cananical but even with structure hashing, AIG is not cananical, this is simple but important.
+
+`dsd`
+- [The Disjunctive Decomposition of Logic Functions](https://dl.acm.org/doi/pdf/10.5555/266388.266429)
+<br> This command implements the vary 4 cases in the paper above.
+- Other Disjoint Support Decomposition reference:
+  - [Minato-DeMicheli](https://dl.acm.org/doi/pdf/10.1145/288548.288586)
+  - [Sasao-Matsuura](http://www.lsi-cad.com/sasao/Papers/files/IWLS1998.pdf)
 
 `fraig`
 - [FRAIGs: A Unifying Representation for Logic Synthesis and Verification](https://people.eecs.berkeley.edu/~alanmi/publications/2005/tech05_fraigs.pdf)
