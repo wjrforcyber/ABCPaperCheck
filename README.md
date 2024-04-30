@@ -28,6 +28,9 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 - [CUDD package](https://web.mit.edu/sage/export/tmp/y/usr/share/doc/polybori/cudd/cuddIntro.html)
 <br>A manual helps get familar with CUDD package.
 
+- [EXTRA library](https://people.eecs.berkeley.edu/~alanmi/research/extra/)
+<br>Should be used together with BDD.
+
 - [Liberty Reference Manual](https://people.eecs.berkeley.edu/~alanmi/publications/other/liberty07_03.pdf), there's probably a new version though, if anyone has a legal reference link, please update.  
 
 - [Priority Cuts Defination](https://people.eecs.berkeley.edu/~alanmi/publications/2007/iccad07_map.pdf)
@@ -101,6 +104,7 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
   - [Minato-DeMicheli](https://dl.acm.org/doi/pdf/10.1145/288548.288586)
   - [Sasao-Matsuura](http://www.lsi-cad.com/sasao/Papers/files/IWLS1998.pdf)
   - [An approach to disjoint-support decomposition of logic functions](https://people.eecs.berkeley.edu/~alanmi/publications/2001/tech01_dsd.pdf)
+  <br>This implementation should be in [EXTRA](https://people.eecs.berkeley.edu/~alanmi/research/extra/) library.
 
 `fraig`
 - [FRAIGs: A Unifying Representation for Logic Synthesis and Verification](https://people.eecs.berkeley.edu/~alanmi/publications/2005/tech05_fraigs.pdf)
