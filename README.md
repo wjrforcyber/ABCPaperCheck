@@ -94,8 +94,12 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 <br>Structure hashing
 
 `bdd`
-<br>Binary decision diagram
+<br>Binary decision diagram.
 <br>*Note that ROBDD is cananical but even with structure hashing, AIG is not cananical, this is simple but important.
+
+`bidec`
+<br>Bi-decomposition.
+<br>Reference: [An Algorithm for Bi-Decomposition of Logic Functions](https://people.eecs.berkeley.edu/~alanmi/publications/2001/dac01.pdf) (Compared to SIS, better delay result achieved.)
 
 `dsd`
 - [The Disjunctive Decomposition of Logic Functions](https://dl.acm.org/doi/pdf/10.5555/266388.266429)
