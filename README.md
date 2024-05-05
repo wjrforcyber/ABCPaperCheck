@@ -29,7 +29,7 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 <br>A manual helps get familar with CUDD package.
 
 - [EXTRA library](https://people.eecs.berkeley.edu/~alanmi/research/extra/)
-<br>Should be used together with BDD.
+<br>Should be used together with CUDD package.
 
 - [Liberty Reference Manual](https://people.eecs.berkeley.edu/~alanmi/publications/other/liberty07_03.pdf), there's probably a new version though, if anyone has a legal reference link, please update.  
 
