@@ -52,6 +52,10 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 
 ### IO & Util Group
 
+`aigaug`
+- [Verilog-to-PyG – A Framework for Graph Learning and Augmentation on RTL Designs](https://people.eecs.berkeley.edu/~alanmi/publications/2023/iccad23_ml.pdf)
+- Logic-level augmentation.
+
 `read_aiger`
 - [Local Two-Level And-Inverter Graph Minimization without Blowup](https://fmv.jku.at/papers/BrummayerBiere-MEMICS06.pdf)
 <br>This one is referenced in ABC when constructing AIG.
@@ -87,6 +91,10 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 
 `&cec`
 - [Parallel Combinational Equivalence Checking](https://people.eecs.berkeley.edu/~alanmi/publications/2019/tcad19_cec.pdf)
+
+`write_edgelist`
+- [Verilog-to-PyG – A Framework for Graph Learning and Augmentation on RTL Designs](https://people.eecs.berkeley.edu/~alanmi/publications/2023/iccad23_ml.pdf)
+- Graph Extraction.
 
 ### Optimization Group
 
