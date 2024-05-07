@@ -115,6 +115,10 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 <br>Construct aig and make sure it's semi-canonical, the concept **semi-canonical** can be compared with ROBDD, which is totally canonical.
 <br>*Note that the MVSIS link in the paper is no longer avaiable, unofficial source code could be retrived from the **Traditional Logic synthesis tools** part below.
 
+`orchestrate`
+- [DAG-aware Synthesis Orchestration](https://arxiv.org/pdf/2310.07846)
+- Greedy local optimization and domain specific optimization with orchestation of `rewrite`/`refactor`/`resub`.
+
 `rewite/refactor/balance`
 - [DAG-Aware AIG Rewriting A Fresh Look at Combinational Logic Synthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2006/dac06_rwr.pdf)
 <br>*Note that based on this [thread](https://github.com/YosysHQ/yosys/issues/4039), you should consider using `drw/drf`.
