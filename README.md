@@ -55,6 +55,7 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 `aigaug`
 - [Verilog-to-PyG – A Framework for Graph Learning and Augmentation on RTL Designs](https://people.eecs.berkeley.edu/~alanmi/publications/2023/iccad23_ml.pdf)
 - Logic-level augmentation.
+- Relevant [repository](https://github.com/Yu-Maryland/Verilog-to-PyG).
 
 `read_aiger`
 - [Local Two-Level And-Inverter Graph Minimization without Blowup](https://fmv.jku.at/papers/BrummayerBiere-MEMICS06.pdf)
@@ -117,6 +118,10 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
   - [Sasao-Matsuura](http://www.lsi-cad.com/sasao/Papers/files/IWLS1998.pdf)
   - [An approach to disjoint-support decomposition of logic functions](https://people.eecs.berkeley.edu/~alanmi/publications/2001/tech01_dsd.pdf)
   <br>This implementation should be in [EXTRA](https://people.eecs.berkeley.edu/~alanmi/research/extra/) library.
+
+`ftune`
+- [FlowTune: End-to-end Automatic Logic Optimization Exploration via Domain-specific Multi-armed Bandit](https://arxiv.org/abs/2202.07721)
+<br>Note that is command **is not in the original ABC**, the detail of the implementation is [here](https://github.com/Yu-Maryland/FlowTune).
 
 `fraig`
 - [FRAIGs: A Unifying Representation for Logic Synthesis and Verification](https://people.eecs.berkeley.edu/~alanmi/publications/2005/tech05_fraigs.pdf)
