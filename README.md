@@ -253,6 +253,7 @@ in Lookup-Table Based FPGA Designs](https://limsk.ece.gatech.edu/course/ece6133/
   </summary>
   Here are some famous benchmarks from research/paper above.
 
+- [ESPRESSO benchmark](https://ptolemy.berkeley.edu/projects/embedded/pubs/downloads/espresso/index.htm)
 - [IWLS 2022 Benchmarks](https://github.com/alanminko/iwls2022-ls-contest)
 - [IWLS 2005 Benchmarks](https://iwls.org/iwls2005/benchmarks.html)
 - [EPFL combinational benchmark suite](https://github.com/lsils/benchmarks)
