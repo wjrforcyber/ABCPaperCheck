@@ -132,6 +132,10 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 - [DAG-aware Synthesis Orchestration](https://arxiv.org/pdf/2310.07846)
 - Greedy local optimization and domain specific optimization with orchestation of `rewrite`/`refactor`/`resub`.
 
+`profile`
+- It profiles the gate strcuture in network, uses reverse engineer, helps when using transparent-boxing strategy and optimizing with don't care.
+- `-a` HA and FA: [Structural reverse engineering of arithmetic circuits](https://people.eecs.berkeley.edu/~alanmi/publications/2017/tech17_arith.pdf)
+
 `rewite/refactor/balance`
 - [DAG-Aware AIG Rewriting A Fresh Look at Combinational Logic Synthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2006/dac06_rwr.pdf)
 <br>*Note that based on this [thread](https://github.com/YosysHQ/yosys/issues/4039), you should consider using `drw/drf`.
