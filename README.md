@@ -260,6 +260,7 @@ in Lookup-Table Based FPGA Designs](https://limsk.ece.gatech.edu/course/ece6133/
 - [ESPRESSO benchmark](https://ptolemy.berkeley.edu/projects/embedded/pubs/downloads/espresso/index.htm)
 - [IWLS 2022 Benchmarks](https://github.com/alanminko/iwls2022-ls-contest)
 - [IWLS 2005 Benchmarks](https://iwls.org/iwls2005/benchmarks.html)
+- [IWLS 2024 Benchmarks](https://github.com/alanminko/iwls2024-ls-contest)
 - [EPFL combinational benchmark suite](https://github.com/lsils/benchmarks)
 <br>There's also a [paper](https://core.ac.uk/download/pdf/148012141.pdf) related to the benchmark.
 <br>*Note that case `hyp` is quite big and skip it if necessary.
