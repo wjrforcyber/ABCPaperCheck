@@ -119,6 +119,9 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
   - [An approach to disjoint-support decomposition of logic functions](https://people.eecs.berkeley.edu/~alanmi/publications/2001/tech01_dsd.pdf)
   <br>This implementation should be in [EXTRA](https://people.eecs.berkeley.edu/~alanmi/research/extra/) library.
 
+`eliminate`
+- [Reference](https://people.eecs.berkeley.edu/~alanmi/publications/2006/iwls06_sls.pdf): *"For example, the operation “eliminate” collapses a node into its fanouts if the worth of a node computed using this metric did not exceed a specified threshold."*("this metric" stands for FFLC.)
+
 `ftune`
 - [FlowTune: End-to-end Automatic Logic Optimization Exploration via Domain-specific Multi-armed Bandit](https://arxiv.org/abs/2202.07721)
 <br>Note that is command **is not in the original ABC**, the detail of the implementation is [here](https://github.com/Yu-Maryland/FlowTune).
