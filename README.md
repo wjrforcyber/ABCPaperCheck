@@ -92,6 +92,7 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 
 `&cec`
 - [Parallel Combinational Equivalence Checking](https://people.eecs.berkeley.edu/~alanmi/publications/2019/tcad19_cec.pdf)
+<br>Note that exact `-P` and `-S` switch cannot be found here, if anyone has found the exact implementation in the paper, please update. 
 
 `write_edgelist`
 - [Verilog-to-PyG – A Framework for Graph Learning and Augmentation on RTL Designs](https://people.eecs.berkeley.edu/~alanmi/publications/2023/iccad23_ml.pdf)
