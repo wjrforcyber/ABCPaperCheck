@@ -155,7 +155,7 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 
 `rr`
 - [Scalable Logic Synthesis using a Simple Circuit Structure](https://people.eecs.berkeley.edu/~alanmi/publications/2006/iwls06_sls.pdf)
-<br>The concept of redundancy removal can be found here.
+<br>The concept of redundancy removal can be found here. The original redundancy removal could still be found in ABC source code but is not registered in the tool, so you can't use it directly, it is marked as absolete.
 <br>*Note: *"...Therefore, don’t-care-based two-level minimization performed in ... using ESPRESSO is not needed for AIG."*
 
 `satclp`
@@ -183,10 +183,6 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 
 `if -u` 
 - [Busy Man’s Synthesis: Combinational Delay Optimization With SAT](https://people.eecs.berkeley.edu/~alanmi/publications/2017/date17_bms.pdf)
-
-`rr`
-- [Scalable Logic Synthesis using a Simple Circuit Structure](https://people.eecs.berkeley.edu/~alanmi/publications/2006/iwls06_sls.pdf)
-<br> *Note: The original redundancy removal could still be found in ABC source code but is not registered in the tool, so you can't use it directly, it is marked as absolete.
 
 
 ### Mapper Group
