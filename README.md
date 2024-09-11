@@ -190,6 +190,11 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 `map`
 <br>There are tons of ideas and tricks inside the mapper, this list will be extended.
 - [Technology Mapping with Boolean Matching, Supergates and Choices](https://people.eecs.berkeley.edu/~alanmi/publications/2005/tech05_map.pdf)
+- [Logic effort: Designing for speed on the back of an Evelope](https://www.ece.ucdavis.edu/~vojin/CLASSES/EPFL/Papers/LE-orig-paper.pdf)
+<br>Core theory, logic effort.
+- [Gain-Based Technology Mapping for Discrete-Size Cell Libraries](https://ieeexplore.ieee.org/document/1219085)
+<br>Some gain-based method reference.
+<br>This reference is closely related to standard cell library mapping, which has discrete-size in each cell class (which means assumption of continuously sizeable cells does not hold).
 - Why delay estimation is logarithmic? - [High-Level Delay Estimation for Technology-Independent logic Equations](https://ieeexplore.ieee.org/document/129876/)
 
 
