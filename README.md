@@ -310,6 +310,7 @@ There's a detailed [introduction](https://people.eecs.berkeley.edu/~alanmi/cours
 ## Performance
 - Yosys+ABC9 in FPGA is catching up with industry level performance. - [Reference](https://people.eecs.berkeley.edu/~alanmi/publications/2023/date23_gap.pdf)
 
+- IWLS 2024: Yosys+ABC(Lasy Man Based): [Insights from Basilisk: Are Open-Source EDA Tools Ready for a Multi-Million-Gate, Linux-Booting RV64 SoC Design?](https://arxiv.org/pdf/2405.04257)
 
 
 ## TODO
