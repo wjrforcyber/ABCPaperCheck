@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+authors:
+- family-names: "Wang"
+  given-names: "Jingren"
+title: "ABCPaperCheck"
+url: "https://github.com/wjrforcyber/ABCPaperCheck"
