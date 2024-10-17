@@ -1,8 +1,6 @@
 ![ABCPaperCheck](https://socialify.git.ci/wjrforcyber/ABCPaperCheck/image?description=1&font=Rokkitt&language=1&name=1&pattern=Circuit%20Board&theme=Dark)
 
 # Research related to ABC
-:moyai: Me myself have read most of the papers listing below, feel free to drop me an email if you would like to discuss about any of them. :moyai:
-
 [ABC](https://github.com/berkeley-abc/abc) is a very popular opensource Logic Synthesis project, some of the research implemented in ABC or related to ABC is recorded here.
 
 This repo also helps people who want to read ABC code properly, research paper is a good start before accessing plain code.
@@ -145,6 +143,7 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 - [DAG-Aware AIG Rewriting A Fresh Look at Combinational Logic Synthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2006/dac06_rwr.pdf)
 <br>*Note that based on this [thread](https://github.com/YosysHQ/yosys/issues/4039), you should consider using `drw/drf`.
 - For `balance`, check the [original paper](https://www.cs.upc.edu/~jordicf/gavina/BIB/files/tcad03_bidec.pdf) about bi-decomposition.
+- Note that in ABC, `balance` command have `-d` and `-s` option but implemented unproperly which leads to same result, in mockturtle, the same algorithm skips these two options.
 
 `resub`
 - [Scalable Logic Synthesis using a Simple Circuit Structure](https://people.eecs.berkeley.edu/~alanmi/publications/2006/iwls06_sls.pdf)
