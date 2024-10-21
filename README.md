@@ -165,6 +165,9 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 - [Encoding of Boolean functions and its application to LUT cascade synthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2002/iwls02_enc.pdf)
 <br>The paper itself does not mention ABC but in this [paper](https://people.eecs.berkeley.edu/~alanmi/publications/2023/iwls23_lut.pdf), reference links `lutmin` here.
 
+`lutpack`
+- [Fast Boolean Matching for LUT Structures](https://people.eecs.berkeley.edu/~alanmi/publications/2007/tech07_lpk.pdf)
+
 `dchoice`
 <br> *Note: *"The command dchoice uses various methods for rewriting the AIG to minimize the number of AIG nodes while not increasing the number of its levels. In particular, dchoice strives for smaller delay by “balancing”, which decreases the number of AIG levels by decomposing “wide-input” AND gates in a balanced way."* - [Reference](https://people.eecs.berkeley.edu/~alanmi/publications/2010/fpga10_speedup.pdf)
 
