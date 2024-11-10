@@ -22,19 +22,21 @@ Another [EPFL Isils group](https://github.com/lsils) also has very high quality 
 Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can be found in following research paper.
 
 - [Quick Look under the Hood of ABC](https://people.eecs.berkeley.edu/~alanmi/abc/programming.pdf)
-<br>A brief but important manual helps understand basic network types and structures in ABC.
+<br/>A brief but important manual helps understand basic network types and structures in ABC.
 
 - [CUDD package](https://web.mit.edu/sage/export/tmp/y/usr/share/doc/polybori/cudd/cuddIntro.html)
-<br>A manual helps get familar with CUDD package.
+<br/>A manual helps get familar with CUDD package.
 
 - [EXTRA library](https://people.eecs.berkeley.edu/~alanmi/research/extra/)
-<br>Should be used together with CUDD package.
+<br/>Should be used together with CUDD package.
 
 - [Liberty Reference Manual](https://people.eecs.berkeley.edu/~alanmi/publications/other/liberty07_03.pdf), there's probably a new version though, if anyone has a legal reference link, please update.  
 
 - [Priority Cuts Defination](https://people.eecs.berkeley.edu/~alanmi/publications/2007/iccad07_map.pdf)
+<br/>Priority cuts are cuts with cost function.
 
 - [Factor Cus Defination](https://people.eecs.berkeley.edu/~alanmi/publications/2006/iccad06_cut.pdf)
+<br/>There are two ways of generating cuts, [top-down or bottom-up](https://infoscience.epfl.ch/entities/publication/d9ae3daa-9ee9-4902-892d-ba7b3f241bfb). 
 
 - [Cut Ranking and Pruning: Enabling A General And Efficient FPGA Mapping Solution](https://dl.acm.org/doi/pdf/10.1145/296399.296425)
 
