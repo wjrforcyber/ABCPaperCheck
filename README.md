@@ -99,6 +99,9 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 - [Verilog-to-PyG – A Framework for Graph Learning and Augmentation on RTL Designs](https://people.eecs.berkeley.edu/~alanmi/publications/2023/iccad23_ml.pdf)
 - Graph Extraction.
 
+`write_bench`
+- This command by default write out the LUT network, if you prefer the traditional gate representation, turn on `-l`.
+
 ### Optimization Group
 
 `strash`
