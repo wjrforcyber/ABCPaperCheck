@@ -127,6 +127,9 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 `eliminate`
 - [Reference](https://people.eecs.berkeley.edu/~alanmi/publications/2006/iwls06_sls.pdf): *"For example, the operation “eliminate” collapses a node into its fanouts if the worth of a node computed using this metric did not exceed a specified threshold."*("this metric" stands for FFLC.)
 
+`&fx`
+- Fast extract from [The Testability-Preserving Concurrent Decomposition and Factorization of Boolean Expressions](https://ieeexplore.ieee.org/document/137523)
+
 `ftune`
 - [FlowTune: End-to-end Automatic Logic Optimization Exploration via Domain-specific Multi-armed Bandit](https://arxiv.org/abs/2202.07721)
 <br>Note that is command **is not in the original ABC**, the detail of the implementation is [here](https://github.com/Yu-Maryland/FlowTune).
