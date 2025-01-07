@@ -241,9 +241,10 @@ in Lookup-Table Based FPGA Designs](https://limsk.ece.gatech.edu/course/ece6133/
 - [Global Delay Optimization using Structural Choices](https://people.eecs.berkeley.edu/~alanmi/publications/2009/tech09_speed.pdf)
 <br>*Note: ABC LUT library format also has examples in this paper. Since all optimization is on AIG as strash is performed after time tracing and critical node marking, so change these two part will help applying the algorithm after standard cell mapping.
 
-`mfs` & `mfs2`
+`mfs` & `mfs2` & `&mfs`
 - [Scalable Don’t-Care-Based Logic Optimization and Resynthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2011/trets11_mfs.pdf)
 <br>Re-sub based resynthesis + don't care based resynthesis
+- Recommend using `&mfs` which is believed to be the newest and best version in ABC. (See note 5 on Page 12 of [Reference](https://people.eecs.berkeley.edu/~alanmi/publications/2021/tcad21_sim.pdf).)
 
 `mfs3`
 - [Versatile SAT-based Remapping for Standard Cells](https://people.eecs.berkeley.edu/~alanmi/publications/2016/iwls16_mfs3.pdf)
