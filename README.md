@@ -179,6 +179,10 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 `dchoice`
 <br> *Note: *"The command dchoice uses various methods for rewriting the AIG to minimize the number of AIG nodes while not increasing the number of its levels. In particular, dchoice strives for smaller delay by “balancing”, which decreases the number of AIG levels by decomposing “wide-input” AND gates in a balanced way."* - [Reference](https://people.eecs.berkeley.edu/~alanmi/publications/2010/fpga10_speedup.pdf)
 
+`indcut`
+- [Cut-Based Inductive Invariant Computation](https://people.eecs.berkeley.edu/~alanmi/publications/2008/iwls08_ind.pdf)
+<br>You will see why one-hotness is collected in section 3.2, this technique is also used in command such as `mfs`.
+
 `if -S`
 - [Mapping into LUT Structures](https://people.eecs.berkeley.edu/~alanmi/publications/2012/date12_lut.pdf)
 
