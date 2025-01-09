@@ -157,6 +157,19 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 - [Scalable Logic Synthesis using a Simple Circuit Structure](https://people.eecs.berkeley.edu/~alanmi/publications/2006/iwls06_sls.pdf)
 <br>*Note that this resub is technology-independent, there is technology-dependent resub in [reference](https://people.eecs.berkeley.edu/~alanmi/publications/2005/tcad05_s&s.pdf), they have similar idea.
 
+`resub_unate`
+- Fast resub based on detecting unate divisors
+- [A Simulation-Guided Paradigm for Logic Synthesis and Verification](https://people.eecs.berkeley.edu/~alanmi/publications/2021/tcad21_sim.pdf)
+
+`resub_core`
+- Generic high-effort resub engine based on support selection	
+- [Efficient Computation of ECO Patch Functions](https://people.eecs.berkeley.edu/~alanmi/publications/2018/dac18_eco.pdf)
+
+`twoexact`
+- SAT-based exact synthesis with side-divisors
+- [SAT Based Exact Synthesis using DAG Topology Families](https://people.eecs.berkeley.edu/~alanmi/publications/2018/dac18_topo.pdf)
+<br>*Note: The above three commands with commands such as `runeco` and `&genrel` can be found in [this repo](https://github.com/alanminko/resub).
+
 `&reshape`
 - [Control Logic Restructuring for Area Optimization](https://people.eecs.berkeley.edu/~alanmi/publications/2022/iwls22_reshape.pdf)
 <br>*Note that although this command is already in ABC, no real implementation is available.
@@ -168,6 +181,9 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 
 `satclp`
 - [Progressive Generation of Canonical Irredundant Sums of Products Using a SAT Solver](https://people.eecs.berkeley.edu/~alanmi/publications/2017/book17_satclp.pdf)
+
+`&satlut`
+- [SAT-Based Area Recovery in Structural Technology Mapping](https://people.eecs.berkeley.edu/~alanmi/publications/2018/aspdac18_satlut.pdf)
 
 `lutmin`
 - [Encoding of Boolean functions and its application to LUT cascade synthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2002/iwls02_enc.pdf)
