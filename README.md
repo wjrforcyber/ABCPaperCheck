@@ -58,6 +58,12 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 - Logic-level augmentation.
 - Relevant [repository](https://github.com/Yu-Maryland/Verilog-to-PyG).
 
+`&get` & `&put`
+- ABC has ABC space and ABC9 space, example of using them interchangeably:
+<br> `read_aiger i10.aig; strash; &get; &b; &st; &put; rewrite; refactor; ps`
+<br> `&r i10.aig; &st; &if -g; &put; balance; rewrite; ps`
+<br> `read_aiger i10.aig; strash; &get; &if -g; &ps`
+
 `read_aiger`
 - [Local Two-Level And-Inverter Graph Minimization without Blowup](https://fmv.jku.at/papers/BrummayerBiere-MEMICS06.pdf)
 <br>This one is referenced in ABC when constructing AIG.
