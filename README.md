@@ -225,6 +225,7 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 ### Mapper Group
 `map`
 <br>There are tons of ideas and tricks inside the mapper, this list will be extended.
+- [Reducing Structural Bias in Technology Mapping](https://people.eecs.berkeley.edu/~alanmi/publications/2005/iccad05_map.pdf)
 - [Technology Mapping with Boolean Matching, Supergates and Choices](https://people.eecs.berkeley.edu/~alanmi/publications/2005/tech05_map.pdf)
 - [Logic effort: Designing for speed on the back of an Evelope](https://www.ece.ucdavis.edu/~vojin/CLASSES/EPFL/Papers/LE-orig-paper.pdf)
 <br>Core theory, logic effort.
