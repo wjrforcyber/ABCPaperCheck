@@ -185,6 +185,9 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 <br>The concept of redundancy removal can be found here. The original redundancy removal could still be found in ABC source code but is not registered in the tool, so you can't use it directly, it is marked as absolete.
 <br>*Note: *"...Therefore, don’t-care-based two-level minimization performed in ... using ESPRESSO is not needed for AIG."*
 
+`runeco`
+- [Efficient Computation of ECO Patch Functions](https://people.eecs.berkeley.edu/~alanmi/publications/2018/dac18_eco.pdf)
+
 `satclp`
 - [Progressive Generation of Canonical Irredundant Sums of Products Using a SAT Solver](https://people.eecs.berkeley.edu/~alanmi/publications/2017/book17_satclp.pdf)
 
