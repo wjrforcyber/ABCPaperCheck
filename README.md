@@ -130,6 +130,10 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
   - [An approach to disjoint-support decomposition of logic functions](https://people.eecs.berkeley.edu/~alanmi/publications/2001/tech01_dsd.pdf)
   <br>This implementation should be in [EXTRA](https://people.eecs.berkeley.edu/~alanmi/research/extra/) library.
 
+`dsec`
+<br>Sequential Equivalence Checking.
+- [Scalable and Scalably-Verifiable Sequential Synthesis](https://people.eecs.berkeley.edu/~brayton/publications/2008/dac08_vss.pdf)
+
 `eliminate`
 - [Reference](https://people.eecs.berkeley.edu/~alanmi/publications/2006/iwls06_sls.pdf): *"For example, the operation “eliminate” collapses a node into its fanouts if the worth of a node computed using this metric did not exceed a specified threshold."*("this metric" stands for FFLC.)
 
