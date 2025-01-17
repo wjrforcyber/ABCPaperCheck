@@ -80,6 +80,9 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 - [BLIF-MV](https://people.eecs.berkeley.edu/~alanmi/publications/other/blifmv.pdf)
 <br>BLIF-MV format is the extended BLIF format.
 
+`read_pla`
+<br>PLA format is used as the input file format for Espresso, could find the manual [here](https://people.eecs.berkeley.edu/~alanmi/research/espresso/espresso_5.html).
+
 `read_genlib` & `print_genlib`
 - genlib format is [SIS genlib format](https://workcraft.org/_media/help/sis_genlib.pdf)
 <br>*Note this is not an offical source, it would be appreciate if anyone could provide an official source.
