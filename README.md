@@ -9,6 +9,14 @@ Most of the paper referenced here can be found at Alan Mishchenko's [publication
 
 Another [EPFL Isils group](https://github.com/lsils) also has very high quality synthesis research, feel free to add anything interesting to the list.
 
+## General introduction
+- [ABC: An academic industrial-strength verification tool](https://people.eecs.berkeley.edu/~alanmi/publications/2010/cav10_abc.pdf)
+<br/>This introduction is a bit old but contains history of all Berkeley's tools and how ABC is started, it is written by Prof Robert Brayton.
+
+- [Quick Look under the Hood of ABC](https://people.eecs.berkeley.edu/~alanmi/abc/programming.pdf)
+<br/>A brief but important manual helps understand basic network types and structures in ABC.
+
+
 ## Command and Research Related
 
 
@@ -20,9 +28,6 @@ Another [EPFL Isils group](https://github.com/lsils) also has very high quality 
   </summary>
 
 Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can be found in following research paper.
-
-- [Quick Look under the Hood of ABC](https://people.eecs.berkeley.edu/~alanmi/abc/programming.pdf)
-<br/>A brief but important manual helps understand basic network types and structures in ABC.
 
 - [CUDD package](https://web.mit.edu/sage/export/tmp/y/usr/share/doc/polybori/cudd/cuddIntro.html)
 <br/>A manual helps get familar with CUDD package.
