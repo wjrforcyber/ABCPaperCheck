@@ -212,6 +212,7 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 
 `lutpack`
 - [Fast Boolean Matching for LUT Structures](https://people.eecs.berkeley.edu/~alanmi/publications/2007/tech07_lpk.pdf)
+- [Boolean Factoring and Decomposition of Logic Networks](https://people.eecs.berkeley.edu/~alanmi/publications/2008/iccad08_lp.pdf)
 
 `dchoice`
 <br> *Note: *"The command dchoice uses various methods for rewriting the AIG to minimize the number of AIG nodes while not increasing the number of its levels. In particular, dchoice strives for smaller delay by “balancing”, which decreases the number of AIG levels by decomposing “wide-input” AND gates in a balanced way."* - [Reference](https://people.eecs.berkeley.edu/~alanmi/publications/2010/fpga10_speedup.pdf)
