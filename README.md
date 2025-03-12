@@ -206,6 +206,9 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 `&satlut`
 - [SAT-Based Area Recovery in Structural Technology Mapping](https://people.eecs.berkeley.edu/~alanmi/publications/2018/aspdac18_satlut.pdf)
 
+`&transduction`
+- [Randomized Transduction for High-Effort Logic Synthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2024/iwls24_transd.pdf)
+
 `lutmin`
 - [Encoding of Boolean functions and its application to LUT cascade synthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2002/iwls02_enc.pdf)
 <br>The paper itself does not mention ABC but in this [paper](https://people.eecs.berkeley.edu/~alanmi/publications/2023/iwls23_lut.pdf), reference links `lutmin` here.
