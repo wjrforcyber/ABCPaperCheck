@@ -1,7 +1,7 @@
 ![ABCPaperCheck](https://socialify.git.ci/wjrforcyber/ABCPaperCheck/image?description=1&font=Rokkitt&language=1&name=1&pattern=Circuit%20Board&theme=Dark)
 
 # Research related to ABC
-[ABC](https://github.com/berkeley-abc/abc) is a very popular opensource Logic Synthesis project, some of the research implemented in ABC or related to ABC is recorded here.
+[ABC](https://github.com/berkeley-abc/abc) is a very popular open source Logic Synthesis project, some research implemented in ABC or related to ABC is recorded here.
 
 This repo also helps people who want to read ABC code properly, research paper is a good start before accessing plain code.
 
@@ -123,7 +123,7 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 
 `bdd`
 <br>Binary decision diagram.
-<br>*Note that ROBDD is canonical but even with structure hashing, AIG is not canonical, this is simple but important.
+<br>*Note that Reduced Ordered Binary Decision Diagram(ROBDD) is canonical but even with structure hashing, AIG is not canonical, this is simple but important.
 
 `bidec`
 <br>Bi-decomposition.
