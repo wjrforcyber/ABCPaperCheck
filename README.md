@@ -40,7 +40,7 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 - [Priority Cuts Defination](https://people.eecs.berkeley.edu/~alanmi/publications/2007/iccad07_map.pdf)
 <br/>Priority cuts are cuts with cost function.
 
-- [Factor Cus Defination](https://people.eecs.berkeley.edu/~alanmi/publications/2006/iccad06_cut.pdf)
+- [Factor Cuts Defination](https://people.eecs.berkeley.edu/~alanmi/publications/2006/iccad06_cut.pdf)
 <br/>There are two ways of generating cuts, [top-down or bottom-up](https://infoscience.epfl.ch/entities/publication/d9ae3daa-9ee9-4902-892d-ba7b3f241bfb). 
 
 - [Cut Ranking and Pruning: Enabling A General And Efficient FPGA Mapping Solution](https://dl.acm.org/doi/pdf/10.1145/296399.296425)
