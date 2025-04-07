@@ -30,17 +30,17 @@ Another [EPFL Isils group](https://github.com/lsils) also has very high quality 
 Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can be found in following research paper.
 
 - [CUDD package](https://web.mit.edu/sage/export/tmp/y/usr/share/doc/polybori/cudd/cuddIntro.html)
-<br/>A manual helps get familar with CUDD package.
+<br/>A manual helps get familiar with CUDD package.
 
 - [EXTRA library](https://people.eecs.berkeley.edu/~alanmi/research/extra/)
 <br/>Should be used together with CUDD package.
 
 - [Liberty Reference Manual](https://people.eecs.berkeley.edu/~alanmi/publications/other/liberty07_03.pdf), there's probably a new version though, if anyone has a legal reference link, please update.  
 
-- [Priority Cuts Defination](https://people.eecs.berkeley.edu/~alanmi/publications/2007/iccad07_map.pdf)
+- [Priority Cuts Definition](https://people.eecs.berkeley.edu/~alanmi/publications/2007/iccad07_map.pdf)
 <br/>Priority cuts are cuts with cost function.
 
-- [Factor Cuts Defination](https://people.eecs.berkeley.edu/~alanmi/publications/2006/iccad06_cut.pdf)
+- [Factor Cuts Definition](https://people.eecs.berkeley.edu/~alanmi/publications/2006/iccad06_cut.pdf)
 <br/>There are two ways of generating cuts, [top-down or bottom-up](https://infoscience.epfl.ch/entities/publication/d9ae3daa-9ee9-4902-892d-ba7b3f241bfb). 
 
 - [Cut Ranking and Pruning: Enabling A General And Efficient FPGA Mapping Solution](https://dl.acm.org/doi/pdf/10.1145/296399.296425)
@@ -49,8 +49,8 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 <br>ESOP minimizer EXORCISM-4, compared with early EXMIN2/MINT/EXORCISM-2/EXORCISM–3.
 
 - ISOP(Irredundant Sum-of-product computation)
-<br>Which is always computed by Minato-Morreale Algorithm, there is one Pseudo code in the [appendix part](https://cecs.uci.edu/~papers/compendium94-03/papers/1998/iccad98/pdffiles/02b_2.pdf), the turth table library in [Kitty](https://github.com/msoeken/kitty/blob/master/include/kitty/isop.hpp) also has an implementation.
-<br>Note BDD package seems have internal interface. (Reference needed).
+<br>Which is always computed by Minato-Morreale Algorithm, there is one Pseudo code in the [appendix part](https://cecs.uci.edu/~papers/compendium94-03/papers/1998/iccad98/pdffiles/02b_2.pdf), the truth table library in [Kitty](https://github.com/msoeken/kitty/blob/master/include/kitty/isop.hpp) also has an implementation.
+<br>Note BDD package seems to have internal interface. (Reference needed).
 
 
 </details>
@@ -90,7 +90,7 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 
 `read_genlib` & `print_genlib`
 - genlib format is [SIS genlib format](https://workcraft.org/_media/help/sis_genlib.pdf)
-<br>*Note this is not an offical source, it would be appreciate if anyone could provide an official source.
+<br>*Note this is not an official source, it would be appreciated if anyone could provide an official source.
 
 `read_super`
 - Concepts of supergates can be found in [Reference0](https://people.eecs.berkeley.edu/~alanmi/publications/2005/tech05_map.pdf) and [Reference1](https://people.eecs.berkeley.edu/~alanmi/publications/2005/tcad05_map.pdf).
@@ -123,7 +123,7 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 
 `bdd`
 <br>Binary decision diagram.
-<br>*Note that ROBDD is cananical but even with structure hashing, AIG is not cananical, this is simple but important.
+<br>*Note that ROBDD is canonical but even with structure hashing, AIG is not canonical, this is simple but important.
 
 `bidec`
 <br>Bi-decomposition.
@@ -131,7 +131,7 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 
 `dsd`
 - [The Disjunctive Decomposition of Logic Functions](https://dl.acm.org/doi/pdf/10.5555/266388.266429)
-<br> This command implements the vary 4 cases in the paper above.
+<br> This command implements all the 4 cases in the paper above.
 - Other Disjoint Support Decomposition reference:
   - [Minato-DeMicheli](https://dl.acm.org/doi/pdf/10.1145/288548.288586)
   - [Sasao-Matsuura](http://www.lsi-cad.com/sasao/Papers/files/IWLS1998.pdf)
@@ -155,21 +155,21 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 `fraig`
 - [FRAIGs: A Unifying Representation for Logic Synthesis and Verification](https://people.eecs.berkeley.edu/~alanmi/publications/2005/tech05_fraigs.pdf)
 <br>Construct aig and make sure it's semi-canonical, the concept **semi-canonical** can be compared with ROBDD, which is totally canonical.
-<br>*Note that the MVSIS link in the paper is no longer avaiable, unofficial source code could be retrived from the **Traditional Logic synthesis tools** part below.
+<br>*Note that the MVSIS link in the paper is no longer available, unofficial source code could be retrieved from the **Traditional Logic synthesis tools** part below.
 
 `orchestrate`
 - [DAG-aware Synthesis Orchestration](https://arxiv.org/pdf/2310.07846)
-- Greedy local optimization and domain specific optimization with orchestation of `rewrite`/`refactor`/`resub`.
+- Greedy local optimization and domain specific optimization with orchestration of `rewrite`/`refactor`/`resub`.
 
 `profile`
-- It profiles the gate strcuture in network, uses reverse engineer, helps when using transparent-boxing strategy and optimizing with don't care.
+- It profiles the gate structure in network, uses reverse engineer, helps when using transparent-boxing strategy and optimizing with don't care.
 - `-a` HA and FA: [Structural reverse engineering of arithmetic circuits](https://people.eecs.berkeley.edu/~alanmi/publications/2017/tech17_arith.pdf)
 
 `rewrite/refactor/balance`
 - [DAG-Aware AIG Rewriting A Fresh Look at Combinational Logic Synthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2006/dac06_rwr.pdf)
 <br>*Note that based on this [thread](https://github.com/YosysHQ/yosys/issues/4039), you should consider using `drw/drf`.
 - For `balance`, check the [original paper](https://www.cs.upc.edu/~jordicf/gavina/BIB/files/tcad03_bidec.pdf) about bi-decomposition.
-- Note that in ABC, `balance` command have `-d` and `-s` option but implemented unproperly which leads to same result, in mockturtle, the same algorithm skips these two options.
+- Note that in ABC, `balance` command have `-d` and `-s` option but implemented improperly which leads to same result, in mockturtle, the same algorithm skips these two options.
 
 `resub`
 - [Scalable Logic Synthesis using a Simple Circuit Structure](https://people.eecs.berkeley.edu/~alanmi/publications/2006/iwls06_sls.pdf)
@@ -195,7 +195,7 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 `rr`
 - [Scalable Logic Synthesis using a Simple Circuit Structure](https://people.eecs.berkeley.edu/~alanmi/publications/2006/iwls06_sls.pdf)
 <br>The concept of redundancy removal can be found here. The original redundancy removal could still be found in ABC source code but is not registered in the tool, so you can't use it directly, it is marked as absolete.
-<br>*Note: *"...Therefore, don’t-care-based two-level minimization performed in ... using ESPRESSO is not needed for AIG."*
+<br>*Note: *"... Therefore, don’t-care-based two-level minimization performed in ... using ESPRESSO is not needed for AIG."*
 
 `runeco`
 - [Efficient Computation of ECO Patch Functions](https://people.eecs.berkeley.edu/~alanmi/publications/2018/dac18_eco.pdf)
@@ -246,7 +246,7 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 <br>There are tons of ideas and tricks inside the mapper, this list will be extended.
 - [Reducing Structural Bias in Technology Mapping](https://people.eecs.berkeley.edu/~alanmi/publications/2005/iccad05_map.pdf)
 - [Technology Mapping with Boolean Matching, Supergates and Choices](https://people.eecs.berkeley.edu/~alanmi/publications/2005/tech05_map.pdf)
-- [Logic effort: Designing for speed on the back of an Evelope](https://www.ece.ucdavis.edu/~vojin/CLASSES/EPFL/Papers/LE-orig-paper.pdf)
+- [Logic effort: Designing for speed on the back of an Envelope](https://www.ece.ucdavis.edu/~vojin/CLASSES/EPFL/Papers/LE-orig-paper.pdf)
 <br>Core theory, logic effort.
 - [Gain-Based Technology Mapping for Discrete-Size Cell Libraries](https://ieeexplore.ieee.org/document/1219085)
 <br>Some gain-based method reference.
@@ -273,7 +273,7 @@ in Lookup-Table Based FPGA Designs](https://limsk.ece.gatech.edu/course/ece6133/
 - [Chortle-crf Fast Technology Table-Based Mapping for FPGAs](https://www.ece.iastate.edu/~zambreno/classes/cpre583/documents/FraRos91A.pdf)
 <br>Chortle-crf
 - [DAGON: Technology Binding and Local Optimization by DAG Matching](https://dl.acm.org/doi/pdf/10.1145/62882.62957)
-<br>The well known DAGON, you could probably see this in any reference(especially lecture slides/research paper etc) online. Based on treeifying and dynamic programming.
+<br>The well known DAGON, you could probably see this in any reference(especially lecture slides/research paper etc.) online. Based on treeifying and dynamic programming.
 - [Delay-Optimal Technology Mapping by DAG Covering](https://dl.acm.org/doi/pdf/10.1145/277044.277142)
 <br>DAG mapper
 <br>*Note: Faster than tree covering method in DAGON.
@@ -285,7 +285,7 @@ in Lookup-Table Based FPGA Designs](https://limsk.ece.gatech.edu/course/ece6133/
 ### Post-Mappinng Group
 `speedup`
 - [Global Delay Optimization using Structural Choices](https://people.eecs.berkeley.edu/~alanmi/publications/2009/tech09_speed.pdf)
-<br>*Note: ABC LUT library format also has examples in this paper. Since all optimization is on AIG as strash is performed after time tracing and critical node marking, so change these two part will help applying the algorithm after standard cell mapping.
+<br>*Note: ABC LUT library format also has examples in this paper. Since all optimization is on AIG as strash is performed after time tracing and critical node marking, so change these two part will help to apply the algorithm after standard cell mapping.
 
 `mfs` & `mfs2` & `&mfs`
 - [Scalable Don’t-Care-Based Logic Optimization and Resynthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2011/trets11_mfs.pdf)
@@ -314,7 +314,7 @@ in Lookup-Table Based FPGA Designs](https://limsk.ece.gatech.edu/course/ece6133/
 ## Traditional Logic synthesis tools
 - [Old Logic synthesis tools](https://jackhack96.github.io/logic-synthesis/mvsis.html)
 <br>Espresso, SIS, MVSIS are here.
-<br>*Note: Some of the algorithm in ABC is directly from SIS and MVSIS.
+<br>*Note: Some algorithm in ABC is directly from SIS and MVSIS.
 
 <details>
   <summary>
@@ -356,9 +356,9 @@ in Lookup-Table Based FPGA Designs](https://limsk.ece.gatech.edu/course/ece6133/
     </h3>
   </summary>
 
-This [repo](https://www.cs.cmu.edu/~mheule/15816-f21/slides/practice.pdf) from CMU can give you a brif introduction on the DIMACS format and how to use SAT solver as an interface.
+This [repo](https://www.cs.cmu.edu/~mheule/15816-f21/slides/practice.pdf) from CMU can give you a brief introduction on the DIMACS format and how to use SAT solver as an interface.
 
-I was trying to matain a collection list of SAT solvers but I have found that [PySAT](https://github.com/pysathq/pysat) seems contain all the well-known SAT solvers. 
+I was trying to maintain a collection list of SAT solvers, but I have found that [PySAT](https://github.com/pysathq/pysat) seems to contain all the well-known SAT solvers. 
 
 There's a detailed [introduction](https://people.eecs.berkeley.edu/~alanmi/courses/2007_290N/papers/intro_een_sat03.pdf) on MiniSAT.
 
@@ -367,7 +367,7 @@ There's a detailed [introduction](https://people.eecs.berkeley.edu/~alanmi/cours
 ## Performance
 - Yosys+ABC9 in FPGA is catching up with industry level performance. - [Reference](https://people.eecs.berkeley.edu/~alanmi/publications/2023/date23_gap.pdf)
 
-- IWLS 2024: Yosys+ABC(Lasy Man Based): [Insights from Basilisk: Are Open-Source EDA Tools Ready for a Multi-Million-Gate, Linux-Booting RV64 SoC Design?](https://arxiv.org/pdf/2405.04257)
+- IWLS 2024: Yosys+ABC(Lazy Man Based): [Insights from Basilisk: Are Open-Source EDA Tools Ready for a Multi-Million-Gate, Linux-Booting RV64 SoC Design?](https://arxiv.org/pdf/2405.04257)
 
 
 ## TODO
