@@ -285,7 +285,7 @@ in Lookup-Table Based FPGA Designs](https://limsk.ece.gatech.edu/course/ece6133/
 ### Post-Mappinng Group
 `speedup`
 - [Global Delay Optimization using Structural Choices](https://people.eecs.berkeley.edu/~alanmi/publications/2009/tech09_speed.pdf)
-<br>*Note: ABC LUT library format also has examples in this paper. Since all optimization is on AIG as strash is performed after time tracing and critical node marking, so change these two part will help to apply the algorithm after standard cell mapping.
+<br>*Note: ABC LUT library format also has examples in this paper. Since all optimization is on AIG as `strash` is performed after time tracing and critical node marking, so change these two part will help to apply the algorithm after standard cell mapping.
 
 `mfs` & `mfs2` & `&mfs`
 - [Scalable Don’t-Care-Based Logic Optimization and Resynthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2011/trets11_mfs.pdf)
@@ -312,10 +312,17 @@ in Lookup-Table Based FPGA Designs](https://limsk.ece.gatech.edu/course/ece6133/
 
 
 ## Traditional Logic synthesis tools
+A brief historical view and corresponding introduction of UCB's synthesis and verification tool set:
+
+<img src="images/image.png" width="900">
+
 - [Old Logic synthesis tools](https://jackhack96.github.io/logic-synthesis/mvsis.html)
 <br>Espresso, SIS, MVSIS are here.
 <br>*Note: Some algorithm in ABC is directly from SIS and MVSIS.
 
+- MIS [MIS: A Multiple-Level Logic Optimization System](https://ieeexplore.ieee.org/document/1270347)
+- SIS [SIS: A System for Sequential Circuit Synthesis](https://www2.eecs.berkeley.edu/Pubs/TechRpts/1992/ERL-92-41.pdf)
+- MVSIS [MVSIS 2.0 Programmer’s Manual](https://ptolemy.berkeley.edu/projects/embedded/mvsis/doc/mvsis_20_prog.pdf)
 <details>
   <summary>
     <h2>
