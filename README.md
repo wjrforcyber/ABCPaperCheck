@@ -119,7 +119,9 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 ### Optimization Group
 
 `strash`
-<br>Structure hashing
+<br>Structural hashing
+- One-level strashing: Make sure nodes have different fanins(up to permutation).
+- [Two-level strashing](https://fmv.jku.at/papers/BrummayerBiere-MEMICS06.pdf)
 
 `bdd`
 <br>Binary decision diagram.
