@@ -301,6 +301,27 @@ in Lookup-Table Based FPGA Designs](https://limsk.ece.gatech.edu/course/ece6133/
 <br> *Gain-based [approach](https://www.ece.ucdavis.edu/~vojin/CLASSES/EPFL/Papers/LE-orig-paper.pdf) deals with delay information.
 
 
+### Verification Group
+
+#### Property Checking & SEC
+
+`pdr`
+- [Efficient Implementation of Property Directed Reachability](https://people.eecs.berkeley.edu/~alanmi/publications/2011/fmcad11_pdr.pdf)
+<br>Property Directed Reachability (IC3) algorithm optimized for AIG.
+
+`tempor`
+- [Enhanced Verification by Temporal Decomposition](https://ieeexplore.ieee.org/document/5351146/)
+<br>Takes advantage of temporal decomposition in sequential verification.
+
+`indcut`
+- [Cut-Based Inductive Invariant Computation](https://people.eecs.berkeley.edu/~alanmi/publications/2008/iwls08_ind.pdf)
+<br>Also listed in Optimization Group. Focuses on finding inductive invariants using cuts.
+
+#### Miter Solving & Unroll Bounded Model Checking
+
+`iprove`
+- [Improvements to combinational equivalence checking](https://people.eecs.berkeley.edu/~alanmi/publications/2006/iccad06_cec.pdf)
+
 #### NPN
 - [Classifying n-Input Boolean Functions](https://iie.fing.edu.uy/investigacion/grupos/microele//iberchip/pdf/75.pdf)
 <br> Very clear illustration of P/NPN class and examples are shown.
