@@ -303,28 +303,73 @@ in Lookup-Table Based FPGA Designs](https://limsk.ece.gatech.edu/course/ece6133/
 
 ### Verification Group
 
-#### Property Checking & SEC
+#### Property Checking & SEC (Sequential Equivalence Checking)
 
 `pdr`
-- [Efficient Implementation of Property Directed Reachability](https://people.eecs.berkeley.edu/~alanmi/publications/2011/fmcad11_pdr.pdf)
-<br>Property Directed Reachability (IC3) algorithm optimized for AIG.
+- [(2011) Efficient Implementation of Property Directed Reachability](https://people.eecs.berkeley.edu/~alanmi/publications/2011/fmcad11_pdr.pdf)
+<br>Implements the Property Directed Reachability (PDR/IC3) algorithm, optimized for AIGs, for model checking safety properties.
+
+`bmc` / `&bmc` / `&bmcs` / `bmc2` / `bmc3`
+- [(1999) Symbolic Model Checking without BDDs](https://fmv.jku.at/papers/BiereCimattiClarkeZhu-TACAS99.pdf)
+<br>Performs Bounded Model Checking (BMC). ABC offers multiple implementations (`bmc`, `&bmc`, `&bmcs`, `bmc2`, `bmc3`) with varying features like static/dynamic unrolling, parallel solver support, etc.
+
+`ind`
+- [(2000) Checking Safety Properties Using Induction and a SAT-Solver](https://link.springer.com/chapter/10.1007/3-540-40922-X_8)
+<br>Performs K-step Induction to verify safety properties using a SAT solver.
+
+`int`
+- [(2003) Interpolation and SAT-based Model Checking](https://link.springer.com/chapter/10.1007/978-3-540-45069-6_1)
+<br>Uses SAT-based interpolation to perform model checking.
+
+`dprove` 
+- [Enhancing and Integrating Model Checking Engines](https://www.slideserve.com/jamesengel/enhancing-and-integrating-model-checking-engines-powerpoint-ppt-presentation)
+<br>Performs Sequential Equivalence Checking (SEC) on a sequential miter, combining techniques like abstraction refinement, speculative reduction.
+
+`reach` / `&reachm` / `&reachn` / `&reachp` / `&reachy`
+- [(1992) Symbolic model checking: 10^20 states and beyond](https://dl.acm.org/doi/10.1016/0890-5401%2892%2990017-A) (Foundational paper on BDD reachability)
+<br>Performs BDD-based reachability analysis for model checking. ABC provides multiple implementations (`reach`, `&reachm`, `&reachn`, `&reachp`, `&reachy`) using different BDD techniques and optimizations. 
 
 `tempor`
-- [Enhanced Verification by Temporal Decomposition](https://ieeexplore.ieee.org/document/5351146/)
-<br>Takes advantage of temporal decomposition in sequential verification.
+- [(2009) Enhanced Verification by Temporal Decomposition](https://ieeexplore.ieee.org/document/5351146/)
+<br>Leverages temporal decomposition techniques to improve efficiency in sequential verification.
 
 `indcut`
-- [Cut-Based Inductive Invariant Computation](https://people.eecs.berkeley.edu/~alanmi/publications/2008/iwls08_ind.pdf)
-<br>Also listed in Optimization Group. Focuses on finding inductive invariants using cuts.
+- [(2008) Cut-Based Inductive Invariant Computation](https://people.eecs.berkeley.edu/~alanmi/publications/2008/iwls08_ind.pdf)
+<br>Uses cut-based methods to compute inductive invariants for model checking.
 
-#### Miter Solving & Unroll Bounded Model Checking
+`l2s`
+- [(2002) Liveness Checking as Safety Checking](https://fmv.jku.at/papers/BiereArthoSchuppan-FMICS02.pdf) (Describes the underlying liveness-to-safety transformation) 
+<br>Performs a liveness-to-safety transformation, converting the check of a liveness property into a safety property check.
+
+`kcs`
+- [(2012) A liveness checking algorithm that counts](https://fmv.jku.at/papers/BiereArthoSchuppan-FMICS02.pdf)
+<br>Implements Claessen-Sorensson's k-Liveness algorithm for checking liveness properties.
+
+#### LEC & Miter Solving & SAT Solving (Combinational Equivalence & SAT)
+
+`cec` / `&cec`
+- [(2006) Improvements to combinational equivalence checking](https://people.eecs.berkeley.edu/~alanmi/publications/2006/iccad06_cec.pdf) (Discusses techniques used in CEC)
+<br>Performs Combinational Equivalence Checking (CEC), comparing two combinational circuits or a combinational miter.
+
+`&acec`
+- [Equivalence Checking using Gr ̈obner Bases](https://ics.jku.at/files/2016FMCAD_ACEC.pdf)
+<br>Performs Combinational Equivalence Checking specialized for arithmetic circuits (e.g., multipliers).
 
 `iprove`
-- [Improvements to combinational equivalence checking](https://people.eecs.berkeley.edu/~alanmi/publications/2006/iccad06_cec.pdf)
+- [(2006) Improvements to combinational equivalence checking](https://people.eecs.berkeley.edu/~alanmi/publications/2006/iccad06_cec.pdf)
+<br>A newer engine for Combinational Equivalence Checking (CEC), integrating multiple techniques (rewriting, Fraiging, BDDs, SAT).
 
-#### NPN
-- [Classifying n-Input Boolean Functions](https://iie.fing.edu.uy/investigacion/grupos/microele//iberchip/pdf/75.pdf)
-<br> Very clear illustration of P/NPN class and examples are shown.
+`fraig` / `&fraig` / `dfraig` / `ifraig`
+- [(2003) FRAIGs: A Unifying Representation for Logic Synthesis and Verification](https://people.eecs.berkeley.edu/~alanmi/publications/2005/tech05_fraigs.pdf)
+<br>Performs combinational SAT sweeping to build Functionally Reduced And-Inverter Graphs (FRAIGs), a core technique for CEC.
+
+`sat` / `&sat`
+- [Chaff: Engineering an Efficient SAT Solver](https://www.princeton.edu/~chaff/publication/DAC2001v56.pdf) (Pioneering work in modern SAT solvers often used as baseline/inspiration)
+<br>Performs SAT solving to check the satisfiability of combinational circuit outputs, commonly used for miter solving. Often integrates solvers like MiniSat internally.
+
+`dsat` / `&dsat`
+- [An Extensible SAT-solver (MiniSat)](https://lara.epfl.ch/w/_media/projects:minisat-anextensiblesatsolver.pdf) (Describes MiniSat, often used by `dsat`)
+<br>Solves combinational miter SAT problems, often using an embedded MiniSat solver.
 
 ## Delay target optimization
 - [Enabling Exact Delay Synthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2017/iccad17_eds.pdf)
