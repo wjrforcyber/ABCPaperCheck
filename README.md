@@ -393,6 +393,7 @@ A brief historical view and corresponding introduction of UCB's synthesis and ve
 
 - MIS [MIS: A Multiple-Level Logic Optimization System](https://ieeexplore.ieee.org/document/1270347)
 - SIS [SIS: A System for Sequential Circuit Synthesis](https://www2.eecs.berkeley.edu/Pubs/TechRpts/1992/ERL-92-41.pdf)
+- VIS(Verification Interacting with Synthesis)[VIS : A System for Verification and Synthesis](https://www.cs.columbia.edu/~sedwards/papers/brayton1996vis.pdf)
 - MVSIS [MVSIS 2.0 Programmer’s Manual](https://ptolemy.berkeley.edu/projects/embedded/mvsis/doc/mvsis_20_prog.pdf)
 <details>
   <summary>
