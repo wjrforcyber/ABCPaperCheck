@@ -32,6 +32,8 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 - [CUDD package](https://web.mit.edu/sage/export/tmp/y/usr/share/doc/polybori/cudd/cuddIntro.html)
 <br/>A manual helps get familiar with CUDD package.
 
+- Multi-valued Decision Diagram (MDDs) [Algorithms for discrete function manipulation](https://ieeexplore.ieee.org/document/129849)
+
 - [EXTRA library](https://people.eecs.berkeley.edu/~alanmi/research/extra/)
 <br/>Should be used together with CUDD package.
 
