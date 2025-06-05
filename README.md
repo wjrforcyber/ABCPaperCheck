@@ -161,6 +161,9 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 <br>Construct aig and make sure it's semi-canonical, the concept **semi-canonical** can be compared with ROBDD, which is totally canonical.
 <br>*Note that the MVSIS link in the paper is no longer available, unofficial source code could be retrieved from the **Traditional Logic synthesis tools** part below.
 
+`&iso`
+- [A Semi-Canonical Form for Sequential AIGs](https://people.eecs.berkeley.edu/~alanmi/publications/2013/date13_iso.pdf)
+
 `orchestrate`
 - [DAG-aware Synthesis Orchestration](https://arxiv.org/pdf/2310.07846)
 - Greedy local optimization and domain specific optimization with orchestration of `rewrite`/`refactor`/`resub`.
